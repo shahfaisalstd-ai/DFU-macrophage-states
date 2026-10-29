@@ -135,7 +135,7 @@ These points are stated in the manuscript or follow from the design. They are li
 
 ## Contact
 
-Questions about the code or requests for the two `.h5ad` files: open an issue in this repository, or contact the corresponding author, Yin-Xiong Li (li_yinxiong@gibh.ac.cn).
+Questions about the code or requests for the two `.h5ad` files: open an issue in this repository, or contact Piniel Alphayo Kambey (pinielalphayo@yahoo.com).
 
 ## Citation and licence
 
