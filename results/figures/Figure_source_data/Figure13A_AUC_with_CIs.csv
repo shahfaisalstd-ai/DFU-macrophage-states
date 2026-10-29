@@ -1,0 +1,10 @@
+,evaluation,unit,auc,ci_low,ci_high,ci_method,n_libraries,note
+0,"per-cell, library-grouped 4-fold CV (mean of 5 split seeds)",cell,0.955,0.753,0.989,"library-cluster bootstrap (2,000)",19,"seed AUCs [0.957, 0.95, 0.957, 0.956, 0.956]; CI computed on the seed-averaged out-of-fold scores"
+1,library outcome from aggregated per-cell predictions,library,0.714,0.438,0.991,DeLong,19,stratified bootstrap CI 0.43-0.96
+2,"per-cell, leave-one-library-out",cell,0.954,0.779,0.989,"library-cluster bootstrap (2,000)",19,
+3,"library outcome, leave-one-library-out",library,0.75,0.487,1.0,DeLong,19,stratified bootstrap CI 0.48-0.98
+4,"per-cell, putative-donor-grouped 4-fold CV (5 seeds)",cell,0.837,0.61,0.929,"donor-cluster bootstrap (2,000)",19,"12 putative donors; seed AUCs [0.837, 0.837, 0.837, 0.837, 0.837]"
+5,donor outcome from aggregated per-cell predictions (donor-grouped CV),putative donor,0.781,0.498,1.0,DeLong,19,12 putative donors
+6,"per-cell, foot libraries only, library-grouped CV (5 seeds)",cell,0.977,0.536,0.993,"library-cluster bootstrap (2,000)",14,"seed AUCs [0.977, 0.977, 0.977, 0.977, 0.977]"
+7,"per-cell, 25 repeated library-grouped splits",cell,0.93,0.741,0.971,2.5th-97.5th percentile of the 25 splits,19,split-to-split variability only; not a sampling CI
+8,"library-level pseudobulk classifier (raw-count pseudobulk), leave-one-out",library,0.524,0.152,0.896,DeLong,19,label-permutation P = 0.285 (200 permutations; null mean 0.40)

@@ -1,0 +1,11 @@
+{
+  "bulk_power": 20,
+  "sc_power": 12,
+  "n_bulk_modules": 4,
+  "n_sc_modules": 17,
+  "n_module_pairs": 68,
+  "n_pairs_p001": 1,
+  "n_pairs_FDR05": 1,
+  "panel_size": 129,
+  "panel_recovered": 125
+}

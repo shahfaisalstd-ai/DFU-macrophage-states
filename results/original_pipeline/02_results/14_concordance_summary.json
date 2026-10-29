@@ -1,0 +1,10 @@
+{
+  "n_genes": 13396,
+  "spearman_all": 0.066891235671313,
+  "p_all": 9.187609309094035e-15,
+  "n_leading": 64,
+  "spearman_leading": 0.46222527472527464,
+  "p_leading": 0.0001205033157826468,
+  "pct_same_sign_all": 53.69513287548522,
+  "pct_same_sign_leading": 59.375
+}

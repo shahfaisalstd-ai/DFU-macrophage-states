@@ -1,0 +1,32 @@
+/home/gibh/micromamba/envs/liver_sc/lib/python3.10/site-packages/h5py/__init__.py:36: UserWarning: h5py is running against HDF5 2.2.0 when it was built against 2.1.0, this may cause problems
+  _warn(("h5py is running against HDF5 {0} when it was built against {1}, "
+/home/gibh/micromamba/envs/liver_sc/lib/python3.10/site-packages/louvain/__init__.py:54: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+[    1.6s] 3,141 macrophages x 7,900 genes, 19 patients (1266 NH cells / 1875 H cells)
+[   52.4s] A. repeated grouped CV (25 seeds): mean AUC 0.930, sd 0.058, range 0.722-0.971, median 0.947
+[   66.8s] B. leave-one-patient-out: per-cell AUC 0.954; patient-level AUC from the same predictions 0.750 (n=19)
+[   70.3s] C. NAIVE cell-level CV (cells from one patient in both train and test): AUC 0.994  <-- the optimistic estimate
+[   81.8s] D. l1  k=  100: AUC 0.931 +/- 0.013
+[   95.1s] D. l1  k=  500: AUC 0.942 +/- 0.009
+[  113.3s] D. l1  k= 2000: AUC 0.945 +/- 0.008
+[  122.7s] D. l2  k=  100: AUC 0.918 +/- 0.009
+[  165.4s] D. l2  k=  500: AUC 0.941 +/- 0.006
+[  194.7s] D. l2  k= 2000: AUC 0.948 +/- 0.009
+[  219.4s] D. rf  k=  100: AUC 0.936 +/- 0.015
+[  246.0s] D. rf  k=  500: AUC 0.937 +/- 0.018
+[  277.4s] D. rf  k= 2000: AUC 0.927 +/- 0.022
+[  277.4s] 
+=== STEP 07b COMPLETE ===
+{
+  "n_macrophages": 3141,
+  "n_patients": 19,
+  "repeated_grouped_cv_mean": 0.9304900347551341,
+  "repeated_grouped_cv_sd": 0.058470483546093736,
+  "repeated_grouped_cv_median": 0.9471578725645076,
+  "repeated_grouped_cv_min": 0.7220785676671932,
+  "repeated_grouped_cv_max": 0.9713988414955239,
+  "leave_one_patient_out_percell_auc": 0.9544661400737231,
+  "leave_one_patient_out_patient_auc": 0.75,
+  "naive_ungrouped_auc": 0.9936543443917851,
+  "published_auc": 0.88
+}

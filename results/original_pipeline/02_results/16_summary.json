@@ -1,0 +1,19 @@
+{
+  "n_male": 7,
+  "n_female": 12,
+  "sex_by_group": {
+    "Healing": {
+      "female": 9,
+      "male": 3
+    },
+    "Nonhealing": {
+      "female": 3,
+      "male": 4
+    }
+  },
+  "fisher_p": 0.3260895451297928,
+  "n_sexlinked_nominal": 2,
+  "n_FDR05_unadjusted": 1,
+  "n_FDR05_sex_adjusted": 0,
+  "technical_covariates_min_p": 0.6414642630986135
+}

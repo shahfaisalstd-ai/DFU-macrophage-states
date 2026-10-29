@@ -1,0 +1,47 @@
+/home/gibh/micromamba/envs/liver_sc/lib/python3.10/site-packages/h5py/__init__.py:36: UserWarning: h5py is running against HDF5 2.2.0 when it was built against 2.1.0, this may cause problems
+  _warn(("h5py is running against HDF5 {0} when it was built against {1}, "
+/home/gibh/micromamba/envs/liver_sc/lib/python3.10/site-packages/louvain/__init__.py:54: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+[    1.5s] 3,141 macrophages x 7,900 genes from 19 patients
+[    1.5s] consensus panel genes present in the macrophage matrix: 121
+[  254.0s]   resample 5/25
+[  515.2s]   resample 10/25
+[  773.7s]   resample 15/25
+[ 1015.1s]   resample 20/25
+[ 1270.4s]   resample 25/25
+[ 1270.5s] 
+stable genes (consistent sign in >=80% of resampled models): 5 of 121
+[ 1270.5s] 
+top over-expression effects toward HEALING:
+  gene   oe_mean    oe_sd  oe_sign_consistency  oe_padj
+S100A9 -0.014225 0.007545                 0.96 0.000817
+ HIF1A -0.013708 0.007995                 1.00 0.000007
+    GK -0.013406 0.008180                 0.92 0.000817
+ TIMP1 -0.006252 0.004902                 0.92 0.000817
+  CD99  0.008285 0.005254                 0.88 0.000970
+[ 1270.5s] 
+top over-expression effects toward NON-HEALING:
+  gene   oe_mean    oe_sd  oe_sign_consistency  oe_padj
+S100A9 -0.014225 0.007545                 0.96 0.000817
+ HIF1A -0.013708 0.007995                 1.00 0.000007
+    GK -0.013406 0.008180                 0.92 0.000817
+ TIMP1 -0.006252 0.004902                 0.92 0.000817
+  CD99  0.008285 0.005254                 0.88 0.000970
+[ 1270.5s] 
+prioritised genes for visualisation: ['S100A9', 'HIF1A', 'GK', 'COL3A1', 'COL1A1', 'CD99', 'APOD', 'EGFL7', 'TIMP1', 'AREG', 'SRGN', 'TGFB1']
+[ 1270.6s] 
+=== PRIORITISED GENES, PATIENT LEVEL ===
+  gene  mean_nonhealing  mean_healing    log2FC  p_patient_level  p_cell_level  padj_patient_level
+COL3A1         0.146309      0.407092 -1.415966         0.044931  6.789786e-26            0.213325
+ TGFB1         0.716155      0.532695  0.420136         0.044931  9.274839e-42            0.213325
+  AREG         0.216666      0.648656 -1.538954         0.082632  2.883885e-58            0.213325
+ HIF1A         0.525750      0.942089 -0.829536         0.119830  4.720881e-72            0.213325
+COL1A1         0.204707      0.475574 -1.177319         0.119830  5.949568e-29            0.213325
+ TIMP1         1.525939      2.167984 -0.503872         0.119830 1.167600e-154            0.213325
+S100A9         0.970415      1.895369 -0.958606         0.142216 2.102067e-209            0.213325
+  SRGN         2.473128      2.970169 -0.263236         0.142216 1.299661e-114            0.213325
+    GK         0.415567      0.765803 -0.866306         0.195562  6.021076e-57            0.260750
+  CD99         1.413993      1.099960  0.359435         0.261411  7.135691e-81            0.313694
+ EGFL7         0.185268      0.071602  1.258781         0.470569  7.599852e-93            0.513349
+  APOD         0.064732      0.032255  0.822618         0.965434  1.384079e-50            0.965434
+[ 1270.6s] === STEP 18 COMPLETE ===

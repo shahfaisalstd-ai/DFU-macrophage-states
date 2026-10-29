@@ -1,0 +1,9 @@
+{
+  "n_nonhealing": 6,
+  "n_healing": 7,
+  "min_detectable_cohens_d": 1.7126573524439228,
+  "macrophage_fraction_sd": 0.0020048543977456653,
+  "min_detectable_fraction_difference_pct": 0.34336286248786463,
+  "observed_fraction_difference_pct": -0.10326579044159245,
+  "mean_macrophage_fraction_pct": 0.0556046563916267
+}

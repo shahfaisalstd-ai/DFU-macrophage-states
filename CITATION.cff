@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article below."
+title: "Analysis code: Integrative single-cell and bulk transcriptomic analysis reveals a macrophage state imbalance distinguishing non-healing diabetic foot ulcers"
+type: software
+license: MIT
+repository-code: "https://github.com/shahfaisalstd-ai/DFU-macrophage-states"
+authors:
+  - family-names: Kambey
+    given-names: Piniel Alphayo
+  - family-names: Faisal
+    given-names: Shah
+  - family-names: Ejaz
+    given-names: Muhammad Adeel
+  - family-names: Malik
+    given-names: Abdul
+  - family-names: Li
+    given-names: Yin-Xiong
+    email: li_yinxiong@gibh.ac.cn
+keywords:
+  - diabetic foot ulcer
+  - macrophage
+  - single-cell RNA-seq
+  - pseudobulk
+  - GSE165816
+  - GSE134431
+  - GSE143735
+preferred-citation:
+  type: article
+  title: "Integrative single-cell and bulk transcriptomic analysis reveals a macrophage state imbalance distinguishing non-healing diabetic foot ulcers"
+  authors:
+    - family-names: Kambey
+      given-names: Piniel Alphayo
+    - family-names: Faisal
+      given-names: Shah
+    - family-names: Ejaz
+      given-names: Muhammad Adeel
+    - family-names: Malik
+      given-names: Abdul
+    - family-names: Li
+      given-names: Yin-Xiong
+  journal: "World Journal of Diabetes"
+  notes: "Manuscript 124795 (in revision)"

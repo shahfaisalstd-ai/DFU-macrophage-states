@@ -1,0 +1,41 @@
+[    0.0s] bulk DESeq2 loaded: 17,899 genes, 50 at FDR<0.05, 1238 nominal
+[    0.4s] genes higher in healing: 779; higher in non-healing: 459
+[    6.0s]   higher in healing: 3487 terms, 367 at FDR<0.05
+[   10.2s]   higher in non-healing: 2343 terms, 0 at FDR<0.05
+[   10.3s] 
+top pathways higher in healing:
+                                                          Term  Adjusted P-value Overlap
+                       Neutrophil extracellular trap formation      5.331961e-36  60/189
+                                  Systemic lupus erythematosus      5.331961e-36  52/135
+neutrophil activation involved in immune response (GO:0002283)      1.008951e-28  85/485
+                         neutrophil degranulation (GO:0043312)      1.562276e-28  84/481
+                     neutrophil mediated immunity (GO:0002446)      3.070972e-28  84/488
+                            inflammatory response (GO:0006954)      4.043415e-26  56/230
+                    regulation of immune response (GO:0050776)      2.356800e-21  45/179
+                                                 Leishmaniasis      1.640822e-19   29/77
+                                                     Phagosome      8.072655e-17  36/152
+                               Staphylococcus aureus infection      8.211621e-17   29/95
+              cytokine-mediated signaling pathway (GO:0019221)      4.943857e-14  72/621
+                                                    Alcoholism      5.318959e-14  36/186
+                                    Hematopoietic cell lineage      1.839916e-12   25/99
+ Viral protein interaction with cytokine and cytokine receptor      2.068754e-12  25/100
+                                          Rheumatoid arthritis      2.731583e-12   24/93
+[   10.3s] 
+=== BULK vs SINGLE-CELL CONCORDANCE ===
+{
+  "n_genes": 13396,
+  "spearman_all": 0.066891235671313,
+  "p_all": 9.187609309094035e-15,
+  "n_leading": 64,
+  "spearman_leading": 0.46222527472527464,
+  "p_leading": 0.0001205033157826468,
+  "pct_same_sign_all": 53.69513287548522,
+  "pct_same_sign_leading": 59.375
+}
+[   10.6s] 
+representative genes measured in bulk: 24
+[   10.6s] panel
+lipid metabolism        -0.629973
+myeloid activation      -1.417864
+resident / complement   -1.561262
+[   10.6s] === STEP 14 COMPLETE ===

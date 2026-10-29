@@ -1,0 +1,7 @@
+model,model_label,n_units,n_nonhealing,n_genes_tested,n_FDR05,n_nominal05,expected_nominal_under_null,top_genes,FDR05_genes,cooks_flagged,separated_NA
+M0,"unadjusted (previous analysis), 19 libraries",19,7,16285,2,677,814,"CXCL5, CLEC5A, COL5A2, AEBP1, SPARC, CTHRC1, NNMT, LUM, RBP1, TNIP3","CXCL5, CLEC5A",0,1
+M1,"+ sex, 19 libraries",19,7,16246,0,569,812,"CXCL5, CTHRC1, CLEC5A, COL5A1, BTG3, COL5A2, SLC16A3, AEBP1, NNMT, RARRES2",,39,7
+M2,"+ sex + tissue site (primary), 19 libraries",19,7,16282,0,573,814,"CXCL5, FN1, CXCL14, CTHRC1, MIR3945HG, FCGBP, RBP1, AEBP1, COL5A1, CLEC5A",,3,6
+S1,"foot libraries only, + sex, 14 libraries",14,5,15439,1,473,772,"SLC16A3, CXCL14, IFI44L, ARG2, MX2, CXCL5, OAS2, CLDN4, HBEGF, FCGBP",SLC16A3,4,1
+S3,"primary model excluding mixed-sex libraries G2/G13, 17 libraries",17,7,15991,0,495,800,"METTL21A, FN1, GAN, FRY, CXCL14, CD1A, IL10, EPHA2, RBM17, AC020916.1",,3,1
+S2,"foot only, aggregated to putative donors, + sex, 12 donors",12,4,14901,0,324,745,"SLC16A3, ARG2, CXCL14, AREG, CLDN4, CD1A, FCGBP, IFI44L, CBFA2T3, GAMT",,30,1

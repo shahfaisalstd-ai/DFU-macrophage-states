@@ -1,0 +1,67 @@
+/home/gibh/micromamba/envs/liver_sc/lib/python3.10/site-packages/h5py/__init__.py:36: UserWarning: h5py is running against HDF5 2.2.0 when it was built against 2.1.0, this may cause problems
+  _warn(("h5py is running against HDF5 {0} when it was built against {1}, "
+Loading 54 libraries with 10 workers ...
+  G2A   Foot     Diabetic       542 ->    541 (0.4s)
+  G1A   Foot     Diabetic       985 ->    983 (0.7s)
+  G3A   Foot     Diabetic      1011 ->    989 (1.0s)
+  G4A   Forearm  Diabetic      1384 ->   1345 (1.2s)
+  G7    Foot     Healing       1775 ->   1566 (1.6s)
+  G3    Foot     Diabetic      1984 ->   1899 (2.5s)
+  G1    Forearm  Healthy       3054 ->   2828 (3.7s)
+  G6    Foot     Nonhealing    2279 ->   2146 (4.0s)
+  G11   Forearm  Nonhealing    1620 ->   1293 (2.1s)
+  G8    Foot     Healing       2417 ->   2198 (3.6s)
+  G5    Foot     Diabetic      2630 ->   2464 (4.5s)
+  G2    Foot     Healing       3951 ->   3836 (4.6s)
+  G4    Foot     Healing       2865 ->   2755 (4.8s)
+  G12   Forearm  Healing       3566 ->   2827 (4.3s)
+  G15   Foot     Healing       2250 ->   1799 (3.3s)
+  G16   Foot     Healthy       2922 ->   2547 (4.9s)
+  G18   Forearm  Healthy       3774 ->   2271 (5.1s)
+  G20   PBMC     Healthy       3377 ->   1108 (3.7s)
+  G19   PBMC     Diabetic      3870 ->   1991 (5.9s)
+  G9    Foot     Nonhealing    4290 ->   4034 (10.2s)
+  G17   Forearm  Healing       4404 ->   2935 (7.0s)
+  G13   Forearm  Healing       4289 ->   3440 (7.9s)
+  G10   Foot     Healthy       4825 ->   4644 (10.4s)
+  G21   PBMC     Nonhealing    3812 ->   2005 (5.2s)
+  G22   PBMC     Healing       3006 ->   1761 (3.8s)
+  G24   Foot     Healthy       3515 ->   2891 (3.7s)
+  G28   Foot     Healthy       2483 ->   1982 (3.5s)
+  G14   Foot     Healthy       5399 ->   3287 (11.3s)
+  G26   PBMC     Healthy       3669 ->   1802 (4.5s)
+  G23   Foot     Healing       4630 ->   4150 (7.0s)
+  G27   PBMC     Healing       4609 ->   2424 (5.6s)
+  G25   PBMC     Healing       4278 ->   3014 (7.7s)
+  G31   Foot     Healthy       3465 ->   2799 (5.5s)
+  G30   PBMC     Healthy       4527 ->   3573 (7.8s)
+  G38   Foot     Diabetic      1475 ->    642 (1.9s)
+  G35   Forearm  Nonhealing    2902 ->   2274 (5.1s)
+  G32   Foot     Healthy       4192 ->   3479 (6.6s)
+  G34   Foot     Nonhealing    3413 ->   2408 (5.7s)
+  G29   Forearm  Healthy       4837 ->   3544 (10.2s)
+  G43   Foot     Healthy       1092 ->    529 (1.5s)
+  G39   Foot     Nonhealing    2899 ->   1589 (4.1s)
+  G42   Foot     Healing       2235 ->   1357 (3.3s)
+  G41   Foot     Diabetic      2437 ->   1215 (3.7s)
+  G40   Foot     Healthy       2590 ->   1055 (4.1s)
+  G46   Foot     Diabetic      1659 ->    719 (2.1s)
+  G44   Foot     Healthy       2074 ->    913 (3.5s)
+  G33   Foot     Nonhealing    4268 ->   2469 (10.0s)
+  G36   Forearm  Healthy       5248 ->   3930 (9.3s)
+  G48   Forearm  Diabetic      2104 ->   1339 (3.2s)
+  G37   PBMC     Nonhealing    7537 ->   5693 (10.9s)
+  G50   Foot     Healthy       3531 ->   1838 (5.0s)
+  G49   Foot     Healing       4040 ->   1839 (6.7s)
+  G45   Foot     Healing       4202 ->   2089 (9.4s)
+  G47   PBMC     Diabetic      4770 ->   2836 (8.8s)
+
+Concatenating ...
+
+=== FULL ATLAS BUILT ===
+libraries          : 54 (skin 44, PBMC 10)
+cells raw          : 174,962
+cells passing QC   : 123,884
+skin cells post-QC : 97,677
+genes              : 26,923
+object             : /home/gibh/Documents/Khan 2/02_results/01_atlas_raw.h5ad

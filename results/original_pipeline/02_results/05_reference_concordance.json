@@ -1,0 +1,14 @@
+{
+  "lambda_selected": 0.0,
+  "lambda_matched_benchmark": 0.0,
+  "pearson_r": 0.9998379778255038,
+  "pearson_p": 1.280333781950549e-34,
+  "spearman_rho": 0.9999999999999999,
+  "spearman_p": 3.5321052110353066e-150,
+  "n_macrophage_full": 5032,
+  "n_macrophage_original_design": 656,
+  "benchmark_rmse_full": 0.00689228109444666,
+  "benchmark_rmse_original": 0.006661045525986321,
+  "benchmark_macrophage_r_full": 0.9951478862250897,
+  "benchmark_macrophage_r_original": 0.9951571967104863
+}

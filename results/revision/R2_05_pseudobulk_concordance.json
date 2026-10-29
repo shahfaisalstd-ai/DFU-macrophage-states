@@ -1,0 +1,15 @@
+{
+  "n": 16052,
+  "lfc_spearman_raw_vs_previous": 0.9172133670064455,
+  "previous_FDR05_genes": [
+    "BGN"
+  ],
+  "previous_FDR05_gene_now": {
+    "BGN": {
+      "log2FoldChange": -1.9022669804049122,
+      "pvalue": 0.008790367365305723,
+      "padj": 0.7865446843077126
+    }
+  },
+  "lfc_spearman_M2_vs_M0": 0.8860350314933993
+}

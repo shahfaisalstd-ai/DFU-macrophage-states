@@ -1,0 +1,55 @@
+gsm,gid,tissue,condition,group
+GSM5050521,G1,Forearm,Healthy non-diabetic,Healthy
+GSM5050522,G1A,Foot,Diabetic without DFU,Diabetic
+GSM5050523,G2,Foot,Healing DFU,Healing
+GSM5050524,G2A,Foot,Diabetic without DFU,Diabetic
+GSM5050525,G3,Foot,Diabetic without DFU,Diabetic
+GSM5050526,G3A,Foot,Diabetic without DFU,Diabetic
+GSM5050527,G4,Foot,Healing DFU,Healing
+GSM5050528,G4A,Forearm,Diabetic without DFU,Diabetic
+GSM5050529,G5,Foot,Diabetic without DFU,Diabetic
+GSM5050530,G6,Foot,Non-healing DFU,Nonhealing
+GSM5050531,G7,Foot,Healing DFU,Healing
+GSM5050532,G8,Foot,Healing DFU,Healing
+GSM5050533,G9,Foot,Non-healing DFU,Nonhealing
+GSM5050534,G10,Foot,Healthy non-diabetic,Healthy
+GSM5050535,G11,Forearm,Non-healing DFU,Nonhealing
+GSM5050536,G12,Forearm,Healing DFU,Healing
+GSM5050537,G13,Forearm,Healing DFU,Healing
+GSM5050538,G14,Foot,Healthy non-diabetic,Healthy
+GSM5050539,G15,Foot,Healing DFU,Healing
+GSM5050540,G16,Foot,Healthy non-diabetic,Healthy
+GSM5050541,G17,Forearm,Healing DFU,Healing
+GSM5050542,G18,Forearm,Healthy non-diabetic,Healthy
+GSM5050543,G19,PBMC,Diabetic without DFU,Diabetic
+GSM5050544,G20,PBMC,Healthy non-diabetic,Healthy
+GSM5050545,G21,PBMC,Non-healing DFU,Nonhealing
+GSM5050546,G22,PBMC,Healing DFU,Healing
+GSM5050547,G23,Foot,Healing DFU,Healing
+GSM5050548,G24,Foot,Healthy non-diabetic,Healthy
+GSM5050549,G25,PBMC,Healing DFU,Healing
+GSM5050550,G26,PBMC,Healthy non-diabetic,Healthy
+GSM5050551,G27,PBMC,Healing DFU,Healing
+GSM5050552,G28,Foot,Healthy non-diabetic,Healthy
+GSM5050553,G29,Forearm,Healthy non-diabetic,Healthy
+GSM5050554,G30,PBMC,Healthy non-diabetic,Healthy
+GSM5050555,G31,Foot,Healthy non-diabetic,Healthy
+GSM5050556,G32,Foot,Healthy non-diabetic,Healthy
+GSM5050557,G33,Foot,Non-healing DFU,Nonhealing
+GSM5050558,G34,Foot,Non-healing DFU,Nonhealing
+GSM5050559,G35,Forearm,Non-healing DFU,Nonhealing
+GSM5050560,G36,Forearm,Healthy non-diabetic,Healthy
+GSM5050561,G37,PBMC,Non-healing DFU,Nonhealing
+GSM5050562,G38,Foot,Diabetic without DFU,Diabetic
+GSM5050563,G39,Foot,Non-healing DFU,Nonhealing
+GSM5050564,G40,Foot,Healthy non-diabetic,Healthy
+GSM5050565,G41,Foot,Diabetic without DFU,Diabetic
+GSM5050566,G42,Foot,Healing DFU,Healing
+GSM5050567,G43,Foot,Healthy non-diabetic,Healthy
+GSM5050568,G44,Foot,Healthy non-diabetic,Healthy
+GSM5050569,G45,Foot,Healing DFU,Healing
+GSM5050570,G46,Foot,Diabetic without DFU,Diabetic
+GSM5050571,G47,PBMC,Diabetic without DFU,Diabetic
+GSM5050572,G48,Forearm,Diabetic without DFU,Diabetic
+GSM5050573,G49,Foot,Healing DFU,Healing
+GSM5050574,G50,Foot,Healthy non-diabetic,Healthy

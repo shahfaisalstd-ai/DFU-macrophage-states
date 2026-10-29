@@ -1,0 +1,25 @@
+{
+  "n_macrophages": 3141,
+  "n_patients": 19,
+  "patients_per_group": {
+    "Healing": 12,
+    "Nonhealing": 7
+  },
+  "percell_grouped_auc": 0.9419144391785149,
+  "percell_seed_aucs": [
+    0.9406833070036863,
+    0.9255582938388625,
+    0.9491058451816745,
+    0.942603896787783,
+    0.9516208530805687
+  ],
+  "percell_auc_sd": 0.009115320287724098,
+  "percell_permutation_p": 0.0,
+  "percell_null_mean": 0.42435448463137637,
+  "patient_aggregated_auc": 0.7261904761904762,
+  "patient_aggregated_auc_fraction": 0.7023809523809523,
+  "pseudobulk_loo_auc": 0.5357142857142857,
+  "pseudobulk_permutation_p": 0.32,
+  "pseudobulk_null_mean": 0.4119047619047619,
+  "n_nonzero_features": 120
+}

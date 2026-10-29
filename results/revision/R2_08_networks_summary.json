@@ -1,0 +1,49 @@
+{
+  "bulk_power": 20,
+  "sc_power": 10,
+  "n_bulk_modules": 4,
+  "n_sc_modules": 11,
+  "n_pairs": 44,
+  "n_pairs_FDR05": 5,
+  "n_pairs_p001": 3,
+  "bulk_modules_p05": 0,
+  "sc_modules_p05": 1,
+  "bulk_modules_FDR05": 0,
+  "sc_modules_FDR05": 0,
+  "concordance": {
+    "M0": {
+      "n_genes": 13528,
+      "spearman_all": 0.06536140905750187,
+      "ci_all": [
+        0.048563098373888766,
+        0.08212275520707572
+      ],
+      "p_all": 2.7491153781819424e-14,
+      "n_leading": 60,
+      "spearman_leading": 0.3510419560989164,
+      "ci_leading": [
+        0.10661656963460774,
+        0.5554577349584526
+      ],
+      "p_leading": 0.005958222786420466,
+      "pct_same_sign_leading": 66.66666666666666
+    },
+    "M2": {
+      "n_genes": 13526,
+      "spearman_all": 0.08271042889868399,
+      "ci_all": [
+        0.06594931039457215,
+        0.09942488503857862
+      ],
+      "p_all": 5.691669489293145e-22,
+      "n_leading": 47,
+      "spearman_leading": 0.4309666975023127,
+      "ci_leading": [
+        0.16410475084570497,
+        0.6390488587268163
+      ],
+      "p_leading": 0.002493202032353417,
+      "pct_same_sign_leading": 68.08510638297872
+    }
+  }
+}

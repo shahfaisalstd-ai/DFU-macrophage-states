@@ -1,0 +1,14 @@
+quantity,cells,libraries,note
+"Cells reported by the source study, all 54 libraries",174962,54 libraries (44 skin + 10 PBMC),"Theocharidis et al. 2022: 94,325 foot + 37,182 forearm + 43,455 PBMC"
+"Cells reported by the source study, 44 skin libraries",131507,44 skin libraries,"94,325 foot + 37,182 forearm"
+"Cells in the GEO count matrices, all 54 libraries",174962,54,sum of matrix columns (R2_01)
+"Cells in the GEO count matrices, 44 skin libraries",131507,44,foot 94325 + forearm 37182
+"Cells in the GEO count matrices, 10 PBMC libraries",43455,10,
+"Cells passing QC (200-5,000 genes, <10% mitochondrial), all 54 libraries",123884,54,includes PBMC; not analysed
+"Cells passing QC, 44 skin libraries = integrated atlas",97677,44,all retained; no sub-sampling
+"Cells passing QC, 10 PBMC libraries (excluded)",26207,10,
+Myeloid cells in the skin atlas,7756,44,
+"Macrophage/monocyte cells (resident, inflammatory, lipid-associated)",4969,44,
+Macrophage/monocyte cells in healing + non-healing skin libraries,3141,19,12 healing + 7 non-healing libraries
+  of which foot libraries,2732,14,9 healing + 5 non-healing
+  of which forearm libraries,409,5,3 healing + 2 non-healing

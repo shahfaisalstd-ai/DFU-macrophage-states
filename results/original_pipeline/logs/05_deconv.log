@@ -1,0 +1,113 @@
+/home/gibh/micromamba/envs/liver_sc/lib/python3.10/site-packages/h5py/__init__.py:36: UserWarning: h5py is running against HDF5 2.2.0 when it was built against 2.1.0, this may cause problems
+  _warn(("h5py is running against HDF5 {0} when it was built against {1}, "
+/home/gibh/micromamba/envs/liver_sc/lib/python3.10/site-packages/louvain/__init__.py:54: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+[    6.9s] reference classes:
+Fibroblast        24826
+Keratinocyte      18053
+Smooth muscle     14679
+Endothelial        8755
+Pericyte           7310
+T cell             6228
+Macrophage         5032
+Erythrocyte        3659
+Dendritic cell     2724
+NK cell            1803
+B/Plasma cell      1075
+Lymphatic EC        989
+Mast cell           751
+Melanocyte          700
+Sweat gland         592
+Schwann cell        501
+[    9.0s] marker-eligible genes: 25,554
+[   11.9s] benchmark: 16 cell types with >=20 cells in the mixing half
+[   18.8s] built 200 synthetic mixtures
+[   20.7s]   lambda=  0.0  RMSE=0.0069  r=0.998  macrophage RMSE=0.0046 r=0.995
+[   20.8s]   lambda=  0.1  RMSE=0.0168  r=0.995  macrophage RMSE=0.0091 r=0.992
+[   20.9s]   lambda=  0.5  RMSE=0.0450  r=0.970  macrophage RMSE=0.0217 r=0.965
+[   21.1s]   lambda=  1.0  RMSE=0.0584  r=0.946  macrophage RMSE=0.0276 r=0.944
+[   21.2s]   lambda=  2.0  RMSE=0.0696  r=0.915  macrophage RMSE=0.0326 r=0.922
+[   21.3s]   lambda=  5.0  RMSE=0.0796  r=0.872  macrophage RMSE=0.0375 r=0.898
+[   21.5s]   lambda= 10.0  RMSE=0.0839  r=0.842  macrophage RMSE=0.0398 r=0.886
+[   21.6s]   lambda= 20.0  RMSE=0.0864  r=0.819  macrophage RMSE=0.0411 r=0.879
+[   21.9s]   [cross-platform] lambda=  0.0  RMSE=0.0151  r=0.989  macrophage r=0.983  types recovered=16/16
+[   22.0s]   [cross-platform] lambda=  0.1  RMSE=0.0231  r=0.985  macrophage r=0.985  types recovered=16/16
+[   22.1s]   [cross-platform] lambda=  0.5  RMSE=0.0470  r=0.966  macrophage r=0.960  types recovered=16/16
+[   22.3s]   [cross-platform] lambda=  1.0  RMSE=0.0596  r=0.949  macrophage r=0.937  types recovered=16/16
+[   22.4s]   [cross-platform] lambda=  2.0  RMSE=0.0703  r=0.925  macrophage r=0.915  types recovered=16/16
+[   22.6s]   [cross-platform] lambda=  5.0  RMSE=0.0801  r=0.888  macrophage r=0.892  types recovered=16/16
+[   22.7s]   [cross-platform] lambda= 10.0  RMSE=0.0843  r=0.861  macrophage r=0.881  types recovered=16/16
+[   22.8s]   [cross-platform] lambda= 20.0  RMSE=0.0868  r=0.838  macrophage r=0.874  types recovered=16/16
+[   22.8s] lambda minimising RMSE: matched platform 0.0, cross platform 0.0 <- applied to the bulk cohort
+[   23.7s] 
+=== ACCURACY vs REFERENCE SIZE (identical synthetic mixtures) ===
+[   23.7s]                   reference  n_cells  n_macrophages     rmse      mae  pearson  mac_rmse  mac_pearson
+                 full atlas    48838           2533 0.006892 0.004361 0.997925  0.004596     0.995148
+original 300/library design    13168            654 0.006661 0.004430 0.997898  0.004603     0.995157
+[   24.0s] 
+GSE134431 (19416, 21); groups {'DiabeticSkin': 8, 'Healing': 7, 'Nonhealing': 6}
+[   27.3s] signature 1006 markers, 966 shared with bulk; macrophages in reference = 5,032
+[   27.3s] cell types with non-zero fraction in real bulk: 9/16
+[   27.3s] mean composition (%):
+Keratinocyte      74.70
+Erythrocyte       12.88
+Fibroblast         9.15
+Endothelial        1.86
+Pericyte           0.85
+Sweat gland        0.26
+Schwann cell       0.18
+Macrophage         0.07
+Smooth muscle      0.04
+B/Plasma cell      0.00
+Dendritic cell     0.00
+Lymphatic EC       0.00
+Mast cell          0.00
+Melanocyte         0.00
+NK cell            0.00
+T cell             0.00
+[  111.7s]   bootstrap 25/60
+[  207.9s]   bootstrap 50/60
+[  258.5s] bootstrap complete (60 resamples)
+[  258.5s] marker score from 17 genes
+[  258.6s] 
+=== ABUNDANCE TESTS (non-healing vs healing ulcers) ===
+[  258.6s]                       measure  n_nonhealing  n_healing  mean_nonhealing  mean_healing  cohens_d  p_mannwhitney  p_welch
+  NNLS_orig_ref::Keratinocyte             6          7         0.926809      0.767076  0.589064       0.192555 0.295147
+  NNLS_full_ref::Keratinocyte             6          7         0.929184      0.774224  0.585847       0.192555 0.297510
+     marker_score::Macrophage             6          7        -0.809307      0.180051 -1.163288       0.234266 0.054877
+    NNLS_orig_ref::Fibroblast             6          7         0.046267      0.106506 -0.358578       0.432347 0.516536
+    NNLS_full_ref::Fibroblast             6          7         0.046740      0.109087 -0.361978       0.432347 0.512350
+    NNLS_orig_ref::Macrophage             6          7         0.000000      0.002722 -0.511766       0.440401 0.355918
+    NNLS_full_ref::Macrophage             6          7         0.000000      0.001033 -0.511766       0.440401 0.355918
+        NNLS_orig_ref::T cell             6          7         0.000000      0.000000  0.000000       1.000000      NaN
+        NNLS_full_ref::T cell             6          7         0.000000      0.000000  0.000000       1.000000      NaN
+NNLS_full_ref::Dendritic cell             6          7         0.000000      0.000000  0.000000       1.000000      NaN
+NNLS_orig_ref::Dendritic cell             6          7         0.000000      0.000000  0.000000       1.000000      NaN
+[  258.6s] 
+=== POWER FOR MACROPHAGE ABUNDANCE ===
+{
+  "n_nonhealing": 6,
+  "n_healing": 7,
+  "min_detectable_cohens_d": 1.7126573524439228,
+  "macrophage_fraction_sd": 0.0020048543977456653,
+  "min_detectable_fraction_difference_pct": 0.34336286248786463,
+  "observed_fraction_difference_pct": -0.10326579044159245,
+  "mean_macrophage_fraction_pct": 0.0556046563916267
+}
+[  258.6s] 
+=== FULL vs ORIGINAL-DESIGN REFERENCE ===
+{
+  "lambda_selected": 0.0,
+  "lambda_matched_benchmark": 0.0,
+  "pearson_r": 0.9998379778255038,
+  "pearson_p": 1.280333781950549e-34,
+  "spearman_rho": 0.9999999999999999,
+  "spearman_p": 3.5321052110353066e-150,
+  "n_macrophage_full": 5032,
+  "n_macrophage_original_design": 656,
+  "benchmark_rmse_full": 0.00689228109444666,
+  "benchmark_rmse_original": 0.006661045525986321,
+  "benchmark_macrophage_r_full": 0.9951478862250897,
+  "benchmark_macrophage_r_original": 0.9951571967104863
+}
+[  258.6s] === STEP 05 COMPLETE ===

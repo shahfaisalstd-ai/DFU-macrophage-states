@@ -1,0 +1,10 @@
+# Environment of the revision analyses (revision/R2_*), Python 3.13.
+# These exact versions reproduce the reference results in results/revision byte for byte.
+# h5py/anndata/scanpy are NOT needed: .h5ad files are read with the vendored pure-Python
+# reader pyfive, and differential expression uses the vendored PyDESeq2 0.5.2 (see vendor/).
+numpy==2.5.3
+pandas==3.0.5
+scipy==1.18.1
+scikit-learn==1.9.1
+matplotlib==3.11.2
+joblib==1.6.0

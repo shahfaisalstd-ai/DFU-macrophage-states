@@ -1,0 +1,4 @@
+feature_set,n_shared_genes,external_auc,ci_low,ci_high,note
+all genes (k=200 selected in-fold),18529,0.6,0.165,1.0,"trained on all 13 GSE134431 ulcers; applied without retraining to 9 GSE143735 forearm samples (5 healers, 4 non-healers)"
+consensus panel,129,0.35,0.0,0.766,"trained on all 13 GSE134431 ulcers; applied without retraining to 9 GSE143735 forearm samples (5 healers, 4 non-healers)"
+canonical wound genes,28,0.7,0.223,1.0,"trained on all 13 GSE134431 ulcers; applied without retraining to 9 GSE143735 forearm samples (5 healers, 4 non-healers)"

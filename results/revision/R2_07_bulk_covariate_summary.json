@@ -1,0 +1,52 @@
+{
+  "GSE134431": {
+    "timepoint_by_group": {
+      "P2": {
+        "Healing": 1,
+        "Nonhealing": 3
+      },
+      "W0": {
+        "Healing": 3,
+        "Nonhealing": 0
+      },
+      "W4": {
+        "Healing": 3,
+        "Nonhealing": 3
+      }
+    },
+    "n_FDR05_unadjusted": 50,
+    "n_FDR05_timepoint_adjusted": 141,
+    "lfc_spearman": 0.7456367751365583,
+    "overlap": 19
+  },
+  "GSE143735": {
+    "age_healing": [
+      59,
+      65,
+      61,
+      50,
+      52
+    ],
+    "age_nonhealing": [
+      55,
+      53,
+      55,
+      53
+    ],
+    "age_mannwhitney_p": 0.7109919960746027,
+    "n_FDR05_unadjusted": 9,
+    "n_FDR05_age_sex_adjusted": 10,
+    "lfc_spearman": 0.836887130686912
+  },
+  "panel_after_adjustment": {
+    "n": 128,
+    "same_direction": 86,
+    "pct": 67.2,
+    "ci": [
+      58.3,
+      75.2
+    ],
+    "binomial_p": 6.267911493755744e-05,
+    "replicated_P05": 18
+  }
+}

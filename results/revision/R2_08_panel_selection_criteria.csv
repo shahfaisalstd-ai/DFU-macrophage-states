@@ -1,0 +1,7 @@
+code,criterion,n_panel_genes
+P3_sc_macroDEG,"Macrophage DEG, non-healing vs healing (Wilcoxon per cell, BH-FDR < 0.05, detected in >= 10% of cells; 12 canonical macrophage genes excluded) -- original sub-sampled atlas",121
+P4_trajectory,"Monocyte-to-macrophage trajectory gene (Kruskal-Wallis across pseudotime bins, BH-FDR < 0.05; detected in >= 10 cells) -- original sub-sampled atlas",125
+P5_LRpairs,"Ligand or receptor in a significant cell-cell interaction (permutation P < 0.05, expressed in >= 10% of sender/receiver cells; 6 canonical growth-factor pairs excluded)",60
+P6_bulkDEG,"Bulk DEG in GSE134431 (limma-trend on log2 RPKM, nominal P < 0.01 and |log2FC| > 1; 19 canonical wound genes excluded)",25
+P7_ML_top30,Top-30 random-forest feature importance in the GSE134431 bulk healing classifier,24
+P8_hubs,Top-10 intramodular hub gene (kME) of a bulk or single-cell co-expression module,51

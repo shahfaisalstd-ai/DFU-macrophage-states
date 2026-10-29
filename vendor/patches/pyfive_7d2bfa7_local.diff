@@ -1,0 +1,91 @@
+diff --git a/pyfive/__init__.py b/pyfive/__init__.py
+index 1e6d6f4..459e50c 100644
+--- a/pyfive/__init__.py
++++ b/pyfive/__init__.py
+@@ -19,12 +19,10 @@ from pyfive.inspect import p5ncdump
+ from importlib.metadata import PackageNotFoundError
+ 
+ try:
+-    __version__ = version("pyfive")
++    __version__ = "0+local"
+ except PackageNotFoundError as exc:
+     msg = (
+         "pyfive package not found, please run `pip install -e .` before "
+         "importing the package."
+     )
+-    raise PackageNotFoundError(
+-        msg,
+-    ) from exc
++    pass
+diff --git a/pyfive/h5d.py b/pyfive/h5d.py
+index 95821d7..f3f953d 100644
+--- a/pyfive/h5d.py
++++ b/pyfive/h5d.py
+@@ -664,7 +664,7 @@ class DatasetID(ChunkRead):
+ 
+         logger.info(
+             "[pyfive] Building chunk index (pyfive version=%s)",
+-            version("pyfive"),
++            "0+local",
+         )
+ 
+         # FIXME: How do we know it's a V1 B-tree?
+@@ -1005,14 +1005,23 @@ class DatasetID(ChunkRead):
+             index = self._index
+             for chunk_coords, chunk_selection, out_selection in indexer:
+                 chunk_coords = tuple(map(mul, chunk_coords, self.chunks))
+-                chunk_data = get_vlen_string_data_from_chunk(
+-                    fh,
+-                    index[chunk_coords].byte_offset,
+-                    global_heaps,
+-                    chunk_shape,
+-                    self._ptype,
+-                    self._decode_strings,
+-                )
++                _si = index[chunk_coords]
++                if self.filter_pipeline is not None:
++                    # local patch: decompress filtered vlen-string chunks before parsing
++                    from pyfive.misc_low_level import vlen_from_buffer
++                    fh.seek(_si.byte_offset)
++                    _raw = fh.read(_si.size)
++                    _raw = BTreeV1RawDataChunks._filter_chunk(_raw, _si.filter_mask, self.filter_pipeline, 16)
++                    chunk_data = vlen_from_buffer(fh, _raw, global_heaps, chunk_shape, self._ptype, self._decode_strings)
++                else:
++                    chunk_data = get_vlen_string_data_from_chunk(
++                        fh,
++                        _si.byte_offset,
++                        global_heaps,
++                        chunk_shape,
++                        self._ptype,
++                        self._decode_strings,
++                    )
+                 chunk_data = chunk_data.reshape(chunk_shape)
+                 out[out_selection] = chunk_data[chunk_selection]
+ 
+diff --git a/pyfive/misc_low_level.py b/pyfive/misc_low_level.py
+index 8e81104..5a445e2 100644
+--- a/pyfive/misc_low_level.py
++++ b/pyfive/misc_low_level.py
+@@ -795,3 +795,22 @@ FRACTAL_HEAP_HEADER = OrderedDict(
+         ("indirect_current_rows_count", "H"),
+     )
+ )
++
++
++def vlen_from_buffer(fh, buf, global_heaps, shape, dtype, decode_strings=False):
++    """Local patch: parse vlen-string heap IDs from an already-decompressed chunk."""
++    count = prod(shape)
++    value = np.empty(count, dtype=object)
++    offset = 0
++    for i in range(count):
++        gheap_id = _unpack_struct_from(GLOBAL_HEAP_ID, buf, offset + 4)
++        addr = gheap_id["collection_address"]
++        if addr == 0:
++            value[i] = b""; offset += 16; continue
++        if addr not in global_heaps:
++            global_heaps[addr] = GlobalHeap(fh, addr)
++        value[i] = global_heaps[addr].objects[gheap_id["object_index"]]
++        offset += 16
++    if decode_strings:
++        value = _convert_string_objects(value, dtype.encoding.lower())
++    return value

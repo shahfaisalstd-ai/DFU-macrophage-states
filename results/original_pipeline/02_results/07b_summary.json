@@ -1,0 +1,13 @@
+{
+  "n_macrophages": 3141,
+  "n_patients": 19,
+  "repeated_grouped_cv_mean": 0.9304900347551341,
+  "repeated_grouped_cv_sd": 0.058470483546093736,
+  "repeated_grouped_cv_median": 0.9471578725645076,
+  "repeated_grouped_cv_min": 0.7220785676671932,
+  "repeated_grouped_cv_max": 0.9713988414955239,
+  "leave_one_patient_out_percell_auc": 0.9544661400737231,
+  "leave_one_patient_out_patient_auc": 0.75,
+  "naive_ungrouped_auc": 0.9936543443917851,
+  "published_auc": 0.88
+}

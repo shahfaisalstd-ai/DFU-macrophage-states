@@ -1,0 +1,6 @@
+{'gid': 'G2', 'n_qc_cells': 3836, 'xist_only': 122, 'y_only': 3012, 'both': 15, 'neither': 687, 'pct_xist_pos': 3.6, 'pct_y_pos': 78.9}
+{'gid': 'G13', 'n_qc_cells': 3440, 'xist_only': 456, 'y_only': 2643, 'both': 89, 'neither': 252, 'pct_xist_pos': 15.8, 'pct_y_pos': 79.4}
+{'gid': 'G33', 'n_qc_cells': 2469, 'xist_only': 0, 'y_only': 2198, 'both': 0, 'neither': 271, 'pct_xist_pos': 0.0, 'pct_y_pos': 89.0}
+{'gid': 'G9', 'n_qc_cells': 4034, 'xist_only': 2823, 'y_only': 0, 'both': 0, 'neither': 1211, 'pct_xist_pos': 70.0, 'pct_y_pos': 0.0}
+{'gid': 'G6', 'n_qc_cells': 2146, 'xist_only': 0, 'y_only': 1881, 'both': 0, 'neither': 265, 'pct_xist_pos': 0.0, 'pct_y_pos': 87.7}
+{'gid': 'G49', 'n_qc_cells': 1839, 'xist_only': 0, 'y_only': 1579, 'both': 0, 'neither': 260, 'pct_xist_pos': 0.0, 'pct_y_pos': 85.9}

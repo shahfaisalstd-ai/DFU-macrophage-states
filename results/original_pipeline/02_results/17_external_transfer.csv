@@ -1,0 +1,4 @@
+feature_set,n_shared_genes,internal_loo_auc,external_auc
+all genes (k=200 selected in-fold),19416,0.738095238095238,0.6
+consensus panel,129,0.9761904761904764,0.35
+canonical wound genes,28,0.4523809523809524,0.7000000000000001

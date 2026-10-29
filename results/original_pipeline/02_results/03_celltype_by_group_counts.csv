@@ -1,0 +1,5 @@
+group,B/Plasma cell,Endothelial,Erythrocyte,Fibroblast,Keratinocyte,Lymphatic EC,Mast cell,Melanocyte,Myeloid,NK cell,Pericyte,Schwann cell,Smooth muscle,Sweat gland,T cell
+Diabetic,18,1551,443,3844,1302,178,30,96,848,262,859,46,1674,135,850
+Healing,370,2363,1373,7315,6842,179,80,59,2595,646,2795,37,4376,84,1677
+Healthy,292,3528,1303,10708,6497,490,560,237,2569,512,2543,392,6692,254,1960
+Nonhealing,395,1313,540,2959,3412,142,81,308,1744,383,1113,26,1937,119,1741

@@ -1,0 +1,18 @@
+,tier,item
+0,Discovery,"GSE165816 scRNA-seq: 54 libraries from 27 people; 44 skin libraries, 131,507 cells"
+1,Discovery,"Uniform QC (200-5,000 genes, <10% mito): 97,677 skin cells, no sub-sampling"
+2,Discovery,"Harmony integration, Leiden clustering, post hoc annotation; myeloid re-clustering (7,756 cells)"
+3,Discovery,"Primary contrast: macrophage-state composition and program scores, 12 healing vs 7 non-healing libraries"
+4,Discovery,Library = unit of analysis; raw-count pseudobulk; model ~ sex + tissue site + group (Figs 2-6)
+5,Internal sensitivity analyses,Cell-level vs library-level testing; QC-threshold grid; trajectory rooted at either end
+6,Internal sensitivity analyses,"Covariate models (sex, site, depth, %mito); foot-only (14 libraries); putative-donor aggregation (12 donors)"
+7,Internal sensitivity analyses,Exclusion of libraries with mixed XIST/Y signal; removal of opposite-sex cells
+8,Internal sensitivity analyses,"Classifier: library-grouped, leave-one-library-out and donor-grouped CV; permutation nulls; bootstrap CIs"
+9,Internal sensitivity analyses,"Deconvolution benchmark on 200 synthetic mixtures; power calculation (Figs 6, 10, 13, 15)"
+10,External transportability testing,"GSE134431 foot ulcers (13; bulk): corroboration only - used in panel construction, not independent"
+11,External transportability testing,"GSE143735 forearm skin (9; bulk): untouched external test of direction, effect size and classifier transfer"
+12,External transportability testing,"Directional concordance vs statistical replication (same sign and P < 0.05), with exact 95% CIs (Figs 9, 12, 14)"
+13,Hypothesis-generating in-silico analyses,"Ligand-receptor communication; trajectory gene waves; co-expression networks (Figs 7, 8, 11)"
+14,Hypothesis-generating in-silico analyses,129-gene candidate panel = genes recurring in >= 3 of 6 discovery evidence sets (Supplementary Table 5)
+15,Hypothesis-generating in-silico analyses,"In-silico perturbation of the fitted classifier: associative model responses, no causal meaning (Figs 16, 17)"
+16,Hypothesis-generating in-silico analyses,"Not inferential evidence; candidates for foot-matched multiplex IF, spatial, flow and functional assays"

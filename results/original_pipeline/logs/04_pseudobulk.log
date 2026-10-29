@@ -1,0 +1,64 @@
+/home/gibh/micromamba/envs/liver_sc/lib/python3.10/site-packages/h5py/__init__.py:36: UserWarning: h5py is running against HDF5 2.2.0 when it was built against 2.1.0, this may cause problems
+  _warn(("h5py is running against HDF5 {0} when it was built against {1}, "
+/home/gibh/micromamba/envs/liver_sc/lib/python3.10/site-packages/louvain/__init__.py:54: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+[    1.2s] myeloid object (7756, 25683)
+[    1.4s] macrophage/monocyte cells: 4,969 of 7,756 myeloid across 44 libraries
+[    2.1s] pseudobulk matrix: 41 samples x 25683 genes (>= 10 cells/sample)
+[    2.1s] samples per group:
+Healthy       14
+Healing       12
+Diabetic       8
+Nonhealing     7
+[    4.0s] DESeq2 input: 19 samples ({'Healing': 12, 'Nonhealing': 7}) x 16052 genes
+Fitting dispersions...
+... done in 0.01 seconds.
+
+Fitting MAP dispersions...
+... done in 0.01 seconds.
+
+Fitting LFCs...
+... done in 0.02 seconds.
+
+[   15.4s] DESeq2: 1 genes at FDR<0.05; 745 at nominal p<0.05
+[   15.4s] top 15 by p:
+          log2FoldChange    pvalue      padj
+gene                                        
+BGN            -2.878624  0.000002  0.035874
+CLEC5A         -2.345001  0.000007  0.059961
+CXCL5          -4.115585  0.000025  0.134131
+COL6A1         -1.527839  0.000067  0.210482
+SERPINB2       -3.706422  0.000105  0.210482
+FAM13A          1.453691  0.000110  0.210482
+P2RY13          1.384570  0.000116  0.210482
+COL6A2         -1.545977  0.000117  0.210482
+TNIP3          -3.223952  0.000118  0.210482
+RBP1           -3.810325  0.000135  0.216245
+TBC1D4          1.674989  0.000176  0.248081
+TM7SF3          1.140523  0.000185  0.248081
+COL5A2         -2.242179  0.000228  0.249338
+CPED1           1.592104  0.000232  0.249338
+NNMT           -2.228919  0.000233  0.249338
+[   15.4s] 
+=== FUNCTIONAL PROGRAMMES, PATIENT-LEVEL (n samples) ===
+[   15.4s]            programme  mean_nonhealing  mean_healing  rank_biserial  p_patient_level  padj_patient_level  p_cell_level
+     Interferon_stim        -0.024945      0.065994      -0.523810         0.068350            0.510508  2.946557e-52
+Lipid_associated_LAM         0.045352      0.187054      -0.500000         0.083115            0.510508  2.100573e-02
+          Angiogenic         0.151827      0.403732      -0.357143         0.226840            0.510508 4.394411e-109
+  Matrix_remodelling         0.095270      0.211013      -0.357143         0.226840            0.510508 7.059718e-128
+   Inflammatory_mono         0.287746      0.681965      -0.333333         0.261411            0.510508 2.922582e-223
+  Antigen_presenting         2.164028      1.943186       0.309524         0.299119            0.510508  1.796241e-09
+          Complement         0.659746      0.392037       0.309524         0.299119            0.510508 6.552438e-130
+     Resident_tissue         0.518855      0.227910       0.285714         0.340240            0.510508 1.288049e-143
+        Classical_M1         0.184359      0.237479      -0.261905         0.384457            0.510508  4.226133e-49
+       Efferocytotic         0.210939      0.163501       0.238095         0.431968            0.510508  7.577246e-56
+       Proliferating        -0.094148     -0.099804       0.238095         0.431968            0.510508  5.385882e-54
+Phagocytic_lysosomal         0.380748      0.453682      -0.214286         0.482416            0.522618  8.265334e-01
+      Alternative_M2         0.081842      0.042227       0.071429         0.836945            0.836945  2.850098e-55
+[   15.4s] 
+=== MACROPHAGE STATE COMPOSITION, PATIENT-LEVEL ===
+[   15.4s]                            state  n_nonhealing  n_healing  pct_nonhealing  pct_healing  rank_biserial        p     padj
+     Resident M2-like macrophage             7         12       55.627309    34.735106       0.523810 0.068717 0.150393
+     Lipid-associated macrophage             7         12       11.652088    22.045796      -0.476190 0.100262 0.150393
+Inflammatory monocyte-macrophage             7         12       32.720604    43.219098      -0.261905 0.374648 0.374648
+[   15.4s] === STEP 04 COMPLETE ===

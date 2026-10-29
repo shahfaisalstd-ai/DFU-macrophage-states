@@ -1,0 +1,34 @@
+{
+  "GSE134431": {
+    "n_genes": 17680,
+    "lfc_pearson": 0.999797418294727,
+    "lfc_median_abs_diff": 1.5267029307430846e-10,
+    "se_ratio_median": 1.0000000367021364,
+    "logp_spearman": 0.9999986835985071,
+    "pvalue_max_abs_diff": 0.03276564779563862,
+    "genes_pvalue_diff_gt_1e3": 19,
+    "n_FDR05_engine": 50,
+    "n_FDR05_pydeseq2": 50,
+    "n_nominal_engine": 1238,
+    "n_nominal_pydeseq2": 1238,
+    "overlap_FDR05": 50,
+    "identical_FDR05_set": true,
+    "top20_overlap": 20
+  },
+  "GSE143735": {
+    "n_genes": 17657,
+    "lfc_pearson": 0.9999999999889905,
+    "lfc_median_abs_diff": 3.200191500685179e-09,
+    "se_ratio_median": 1.0000001301350123,
+    "logp_spearman": 0.9999914043298385,
+    "pvalue_max_abs_diff": 0.09469607095039007,
+    "genes_pvalue_diff_gt_1e3": 5,
+    "n_FDR05_engine": 9,
+    "n_FDR05_pydeseq2": 9,
+    "n_nominal_engine": 1547,
+    "n_nominal_pydeseq2": 1548,
+    "overlap_FDR05": 9,
+    "identical_FDR05_set": true,
+    "top20_overlap": 20
+  }
+}

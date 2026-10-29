@@ -1,0 +1,31 @@
+diff --git a/pydeseq2/dds.py b/pydeseq2/dds.py
+index 8c888ad..79c280e 100644
+--- a/pydeseq2/dds.py
++++ b/pydeseq2/dds.py
+@@ -780,7 +780,7 @@ class DeseqDataSet(ad.AnnData):
+             dispersions_, self.min_disp, self.max_disp
+         )
+ 
+-        self.var["_genewise_converged"] = np.full(self.n_vars, np.nan)
++        self.var["_genewise_converged"] = pd.Series(np.nan, index=self.var_names, dtype=object)  # pandas>=3: allow bool assignment
+         self.var.loc[self.var["non_zero"], "_genewise_converged"] = l_bfgs_b_converged_
+ 
+     def fit_dispersion_trend(self, vst: bool = False) -> None:
+@@ -906,7 +906,7 @@ class DeseqDataSet(ad.AnnData):
+             dispersions_, self.min_disp, self.max_disp
+         )
+ 
+-        self.var["_MAP_converged"] = np.full(self.n_vars, np.nan)
++        self.var["_MAP_converged"] = pd.Series(np.nan, index=self.var_names, dtype=object)  # pandas>=3: allow bool assignment
+         self.var.loc[self.var["non_zero"], "_MAP_converged"] = l_bfgs_b_converged_
+ 
+         # Filter outlier genes for which we won't apply shrinkage
+@@ -967,7 +967,7 @@ class DeseqDataSet(ad.AnnData):
+         self.obsm["_mu_LFC"] = mu_
+         self.obsm["_hat_diagonals"] = hat_diagonals_
+ 
+-        self.var["_LFC_converged"] = np.full(self.n_vars, np.nan)
++        self.var["_LFC_converged"] = pd.Series(np.nan, index=self.var_names, dtype=object)  # pandas>=3: allow bool assignment
+         self.var.loc[self.var["non_zero"], "_LFC_converged"] = converged_
+ 
+     def calculate_cooks(self) -> None:

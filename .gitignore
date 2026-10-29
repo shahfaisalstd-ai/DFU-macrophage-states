@@ -1,0 +1,9 @@
+# working data and re-run outputs (large; regenerate with the scripts)
+work/
+*.h5ad
+*.tar
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db

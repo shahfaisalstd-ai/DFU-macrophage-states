@@ -1,0 +1,54 @@
+{
+  "n_samples": 13,
+  "n_nonhealing": 6,
+  "n_panel": 129,
+  "n_canonical": 28,
+  "best_feature_set": "consensus panel",
+  "best_model": "L1 logistic",
+  "best_apparent": 1.0,
+  "best_cv5": 0.8571428571428571,
+  "best_loo": 0.9761904761904763,
+  "permutation": {
+    "all genes (k=200 selected in-fold)": {
+      "model": "L1 logistic",
+      "observed": 0.738095238095238,
+      "null_mean": 0.49247619047619046,
+      "null_sd": 0.23237429732859208,
+      "p": 0.18
+    },
+    "consensus panel": {
+      "model": "L1 logistic",
+      "observed": 0.9761904761904763,
+      "null_mean": 0.4747380952380952,
+      "null_sd": 0.25280151280260066,
+      "p": 0.012
+    },
+    "canonical wound genes": {
+      "model": "Gradient boosting",
+      "observed": 0.6190476190476191,
+      "null_mean": 0.37966666666666665,
+      "null_sd": 0.2215579294445885,
+      "p": 0.178
+    }
+  },
+  "external_transfer": [
+    {
+      "feature_set": "all genes (k=200 selected in-fold)",
+      "n_shared_genes": 19416,
+      "internal_loo_auc": 0.738095238095238,
+      "external_auc": 0.6
+    },
+    {
+      "feature_set": "consensus panel",
+      "n_shared_genes": 129,
+      "internal_loo_auc": 0.9761904761904764,
+      "external_auc": 0.35
+    },
+    {
+      "feature_set": "canonical wound genes",
+      "n_shared_genes": 28,
+      "internal_loo_auc": 0.4523809523809524,
+      "external_auc": 0.7000000000000001
+    }
+  ]
+}

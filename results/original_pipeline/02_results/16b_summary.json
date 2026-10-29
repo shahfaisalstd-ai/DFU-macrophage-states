@@ -1,0 +1,33 @@
+{
+  "GSE134431": {
+    "sex_table": {
+      "Healing": {
+        "male": 7
+      },
+      "Nonhealing": {
+        "male": 6
+      }
+    },
+    "fisher_p": NaN,
+    "n_sexlinked_FDR05": 0,
+    "note": "sex adjustment not estimable"
+  },
+  "GSE143735": {
+    "sex_table": {
+      "Healing": {
+        "female": 1,
+        "male": 4
+      },
+      "Nonhealing": {
+        "female": 1,
+        "male": 3
+      }
+    },
+    "fisher_p": 1.0,
+    "n_sexlinked_FDR05": 0,
+    "n_FDR05_unadjusted": 9,
+    "n_FDR05_sex_adjusted": 13,
+    "n_shared": 8,
+    "log2FC_spearman": 0.9701392145432753
+  }
+}

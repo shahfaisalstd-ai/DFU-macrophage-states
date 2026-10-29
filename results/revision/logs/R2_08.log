@@ -1,0 +1,140 @@
+revision/R2_08_networks_and_panel.py:69: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  Ps = np.log2(Ps.div(Ps.sum(1), axis=0) * 1e6 + 1)
+{
+ "bulk_power": 20,
+ "sc_power": 10,
+ "n_bulk_modules": 4,
+ "n_sc_modules": 11,
+ "n_pairs": 44,
+ "n_pairs_FDR05": 5,
+ "n_pairs_p001": 3,
+ "bulk_modules_p05": 0,
+ "sc_modules_p05": 1,
+ "bulk_modules_FDR05": 0,
+ "sc_modules_FDR05": 0,
+ "concordance": {
+  "M0": {
+   "n_genes": 13528,
+   "spearman_all": 0.06536140905750187,
+   "ci_all": [
+    0.048563098373888766,
+    0.08212275520707572
+   ],
+   "p_all": 2.7491153781819424e-14,
+   "n_leading": 60,
+   "spearman_leading": 0.3510419560989164,
+   "ci_leading": [
+    0.10661656963460774,
+    0.5554577349584526
+   ],
+   "p_leading": 0.005958222786420466,
+   "pct_same_sign_leading": 66.66666666666666
+  },
+  "M2": {
+   "n_genes": 13526,
+   "spearman_all": 0.08271042889868399,
+   "ci_all": [
+    0.06594931039457215,
+    0.09942488503857862
+   ],
+   "p_all": 5.691669489293145e-22,
+   "n_leading": 47,
+   "spearman_leading": 0.4309666975023127,
+   "ci_leading": [
+    0.16410475084570497,
+    0.6390488587268163
+   ],
+   "p_leading": 0.002493202032353417,
+   "pct_same_sign_leading": 68.08510638297872
+  }
+ }
+}
+                            network  module  n_genes  pearson_r_with_nonhealing  ci_low  ci_high     p  padj
+                     bulk GSE134431 bulk_M3      100                     -0.469  -0.811    0.111 0.106 0.424
+                     bulk GSE134431 bulk_M1     2410                     -0.283  -0.722    0.317 0.348 0.697
+                     bulk GSE134431 bulk_M2      247                      0.133  -0.451    0.637 0.664 0.788
+                     bulk GSE134431 bulk_M4       35                      0.083  -0.491    0.606 0.788 0.788
+single-cell pseudobulk (raw counts)   sc_M7       45                     -0.551  -0.804   -0.129 0.014 0.159
+single-cell pseudobulk (raw counts)   sc_M5       64                     -0.321  -0.676    0.156 0.181 0.759
+single-cell pseudobulk (raw counts)   sc_M3      444                     -0.247  -0.630    0.234 0.308 0.759
+single-cell pseudobulk (raw counts)   sc_M9       43                      0.189  -0.290    0.593 0.438 0.759
+single-cell pseudobulk (raw counts)   sc_M8       45                     -0.189  -0.593    0.290 0.438 0.759
+single-cell pseudobulk (raw counts)   sc_M6       64                      0.177  -0.301    0.584 0.468 0.759
+single-cell pseudobulk (raw counts)  sc_M10       36                     -0.171  -0.580    0.307 0.483 0.759
+single-cell pseudobulk (raw counts)   sc_M1      774                     -0.126  -0.548    0.349 0.609 0.837
+single-cell pseudobulk (raw counts)   sc_M4      158                     -0.063  -0.503    0.403 0.799 0.882
+single-cell pseudobulk (raw counts)   sc_M2      757                      0.062  -0.404    0.502 0.802 0.882
+single-cell pseudobulk (raw counts)  sc_M11       32                      0.021  -0.437    0.471 0.932 0.932
+bulk_module sc_module  n_bulk  n_sc  overlap  jaccard            p         padj
+    bulk_M2     sc_M2      63   234       43 0.169291 1.357597e-10 5.973428e-09
+    bulk_M1     sc_M1     646   152      144 0.220183 2.007948e-05 4.417486e-04
+    bulk_M1     sc_M5     646    55       54 0.083462 8.087082e-04 1.186105e-02
+    bulk_M3     sc_M2      14   234       10 0.042017 1.810263e-03 1.991289e-02
+    bulk_M1     sc_M7     646    34       34 0.052632 2.901033e-03 2.552909e-02
+revision/R2_08_networks_and_panel.py:123: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  P["per_cell_evidence_only"] = (P[["P5_LRpairs", "P6_bulkDEG", "P7_ML_top30", "P8_hubs"]].sum(1) == 0)
+{
+ "n": 129,
+ "testable_external": 128,
+ "same_direction": 84,
+ "replicated_P05": 11,
+ "replicated_FDR05": 0,
+ "sc_FDR05_unadj": 0,
+ "sc_FDR05_adj": 0,
+ "bulk_FDR05": 13,
+ "uses_GSE134431": 32,
+ "per_cell_only": 0,
+ "sc_bulk_same_direction": 67,
+ "sc_bulk_testable": 129
+}
+          code                                                                                                                                                                    criterion  n_panel_genes
+P3_sc_macroDEG Macrophage DEG, non-healing vs healing (Wilcoxon per cell, BH-FDR < 0.05, detected in >= 10% of cells; 12 canonical macrophage genes excluded) -- original sub-sampled atlas            121
+ P4_trajectory                         Monocyte-to-macrophage trajectory gene (Kruskal-Wallis across pseudotime bins, BH-FDR < 0.05; detected in >= 10 cells) -- original sub-sampled atlas            125
+    P5_LRpairs     Ligand or receptor in a significant cell-cell interaction (permutation P < 0.05, expressed in >= 10% of sender/receiver cells; 6 canonical growth-factor pairs excluded)             60
+    P6_bulkDEG                                                       Bulk DEG in GSE134431 (limma-trend on log2 RPKM, nominal P < 0.01 and |log2FC| > 1; 19 canonical wound genes excluded)             25
+   P7_ML_top30                                                                                             Top-30 random-forest feature importance in the GSE134431 bulk healing classifier             24
+       P8_hubs                                                                                             Top-10 intramodular hub gene (kME) of a bulk or single-cell co-expression module             51
+                                                                                                    2                                                                   1                                                                0                                                       15                                                  6                                                   7                                                       5                                                       3 
+gene                                                                                              CCR1                                                               ITGAM                                                            PILRA                                                  TYROBP                                               ITGB2                                             TNFSF12                                                    CD86                                                    JAML
+n_analyses                                                                                           5                                                                   5                                                                5                                                       4                                                   4                                                   4                                                       4                                                       4
+evidence_sets                           P3_sc_macroDEG; P4_trajectory; P5_LRpairs; P6_bulkDEG; P8_hubs  P3_sc_macroDEG; P4_trajectory; P5_LRpairs; P6_bulkDEG; P7_ML_top30  P3_sc_macroDEG; P4_trajectory; P6_bulkDEG; P7_ML_top30; P8_hubs  P3_sc_macroDEG; P4_trajectory; P6_bulkDEG; P7_ML_top30  P3_sc_macroDEG; P4_trajectory; P6_bulkDEG; P8_hubs  P3_sc_macroDEG; P4_trajectory; P5_LRpairs; P8_hubs  P3_sc_macroDEG; P4_trajectory; P6_bulkDEG; P7_ML_top30  P3_sc_macroDEG; P4_trajectory; P6_bulkDEG; P7_ML_top30
+P3_sc_macroDEG                                                                                       1                                                                   1                                                                1                                                       1                                                   1                                                   1                                                       1                                                       1
+P4_trajectory                                                                                        1                                                                   1                                                                1                                                       1                                                   1                                                   1                                                       1                                                       1
+P5_LRpairs                                                                                           1                                                                   1                                                                0                                                       0                                                   0                                                   1                                                       0                                                       0
+P6_bulkDEG                                                                                           1                                                                   1                                                                1                                                       1                                                   1                                                   0                                                       1                                                       1
+P7_ML_top30                                                                                          0                                                                   1                                                                1                                                       1                                                   0                                                   0                                                       1                                                       1
+P8_hubs                                                                                              1                                                                   0                                                                1                                                       0                                                   1                                                   1                                                       0                                                       0
+uses_GSE134431_labels                                                                             True                                                                True                                                             True                                                    True                                                True                                               False                                                    True                                                    True
+sc_pseudobulk_unadj_log2FC                                                                   -0.522843                                                            0.576692                                                        -0.211559                                               -0.425482                                           -0.026887                                            0.518415                                               -0.321776                                                0.362929
+sc_pseudobulk_unadj_ci_low                                                                   -1.450744                                                           -0.092281                                                        -0.868426                                               -1.234512                                           -0.590824                                           -0.168008                                               -1.204704                                               -0.347222
+sc_pseudobulk_unadj_ci_high                                                                   0.405059                                                            1.245665                                                         0.445307                                                0.383547                                            0.537049                                            1.204839                                                0.561151                                                1.073079
+sc_pseudobulk_unadj_P                                                                         0.269421                                                            0.091099                                                         0.527868                                                0.302636                                            0.925547                                            0.138801                                                0.475037                                                  0.3165
+sc_pseudobulk_unadj_FDR                                                                        0.99995                                                             0.99995                                                          0.99995                                                 0.99995                                             0.99995                                             0.99995                                                 0.99995                                                 0.99995
+sc_pseudobulk_sex_site_adj_log2FC                                                            -0.392827                                                            0.605801                                                        -0.039511                                               -0.227024                                            0.082704                                            0.382555                                               -0.342154                                                0.077374
+sc_pseudobulk_sex_site_adj_ci_low                                                            -1.212664                                                           -0.121287                                                        -0.521924                                               -0.949777                                            -0.47484                                            -0.38606                                               -1.014362                                               -0.637972
+sc_pseudobulk_sex_site_adj_ci_high                                                             0.42701                                                             1.33289                                                         0.442901                                                0.495729                                            0.640248                                            1.151171                                                0.330054                                                0.792721
+sc_pseudobulk_sex_site_adj_P                                                                   0.34766                                                            0.102459                                                         0.872462                                                0.538121                                            0.771252                                            0.329296                                                0.318454                                                0.832107
+sc_pseudobulk_sex_site_adj_FDR                                                                0.999781                                                            0.999781                                                         0.999781                                                0.999781                                            0.999781                                            0.999781                                                0.999781                                                0.999781
+trajectory_FDR_full_scale                                                                          0.0                                                                 0.0                                                              0.0                                                     0.0                                                 0.0                                                 0.0                                                     0.0                                                     0.0
+bulk_GSE134431_log2FC                                                                        -2.965427                                                           -1.901769                                                         -1.73265                                               -2.724809                                           -1.961686                                           -0.589514                                               -2.558712                                               -2.110838
+bulk_GSE134431_ci_low                                                                         -4.66975                                                           -3.135249                                                        -3.032231                                               -4.098543                                           -3.250924                                           -1.820933                                               -3.744606                                               -3.187912
+bulk_GSE134431_ci_high                                                                       -1.261105                                                           -0.668289                                                         -0.43307                                               -1.351076                                           -0.672448                                            0.641904                                               -1.372818                                               -1.033765
+bulk_GSE134431_P                                                                              0.000649                                                            0.002512                                                         0.008971                                                0.000101                                            0.002861                                            0.348087                                                0.000023                                                0.000122
+bulk_GSE134431_FDR                                                                            0.102112                                                            0.213885                                                         0.396812                                                 0.04176                                            0.230039                                            0.863432                                                0.022529                                                0.045462
+bulk_GSE134431_timepoint_adj_log2FC                                                          -3.339976                                                           -2.317179                                                        -2.065208                                               -2.521843                                           -2.129038                                           -0.821001                                               -2.592161                                               -1.975887
+bulk_GSE134431_timepoint_adj_P                                                                0.001043                                                            0.001692                                                          0.00292                                                0.001779                                            0.002996                                            0.230883                                                0.000261                                                0.001101
+bulk_GSE134431_timepoint_adj_FDR                                                              0.074497                                                            0.093877                                                         0.115345                                                0.095998                                            0.115674                                            0.584098                                                0.038143                                                0.076491
+external_GSE143735_log2FC                                                                    -1.521628                                                           -0.889185                                                        -0.678984                                               -1.469858                                           -1.045475                                           -0.743368                                               -1.257115                                               -0.247115
+external_GSE143735_ci_low                                                                     -3.40749                                                           -2.038509                                                        -1.580194                                               -2.912594                                           -1.712141                                           -1.476761                                               -2.750202                                               -1.186313
+external_GSE143735_ci_high                                                                    0.364234                                                             0.26014                                                         0.222225                                               -0.027123                                           -0.378809                                           -0.009975                                                0.235972                                                0.692083
+external_GSE143735_P                                                                          0.113776                                                            0.129426                                                         0.139758                                                0.045842                                            0.002114                                             0.04696                                                0.098895                                                0.606063
+external_GSE143735_FDR                                                                        0.623333                                                            0.629003                                                         0.633538                                                0.561582                                            0.348259                                            0.565705                                                0.616495                                                0.892739
+external_age_sex_adj_log2FC                                                                  -1.611629                                                           -0.719962                                                        -0.369658                                               -1.662738                                           -1.150188                                           -1.024914                                               -1.636974                                               -0.079625
+external_age_sex_adj_P                                                                        0.094477                                                            0.256501                                                         0.498511                                                0.020667                                            0.000674                                            0.006813                                                0.036254                                                0.887441
+external_age_sex_adj_FDR                                                                      0.808994                                                            0.888174                                                         0.951049                                                0.628339                                            0.250223                                            0.486496                                                0.679165                                                0.991352
+external_same_direction                                                                           True                                                                True                                                             True                                                    True                                                True                                                True                                                    True                                                    True
+external_replicated_same_direction_P05                                                           False                                                               False                                                            False                                                    True                                                True                                                True                                                   False                                                   False
+external_replicated_FDR05                                                                        False                                                               False                                                            False                                                   False                                               False                                               False                                                   False                                                   False
+sc_bulk_same_direction                                                                            True                                                               False                                                             True                                                    True                                                True                                               False                                                    True                                                   False
+in_macrophage_classifier_nonzero                                                                 False                                                               False                                                            False                                                   False                                                True                                               False                                                   False                                                   False
+perturbation_sign_stable                                                                         False                                                               False                                                            False                                                   False                                               False                                               False                                                   False                                                   False

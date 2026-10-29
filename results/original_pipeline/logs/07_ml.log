@@ -1,0 +1,75 @@
+/home/gibh/micromamba/envs/liver_sc/lib/python3.10/site-packages/h5py/__init__.py:36: UserWarning: h5py is running against HDF5 2.2.0 when it was built against 2.1.0, this may cause problems
+  _warn(("h5py is running against HDF5 {0} when it was built against {1}, "
+/home/gibh/micromamba/envs/liver_sc/lib/python3.10/site-packages/louvain/__init__.py:54: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+[    1.4s] macrophages in healing/non-healing samples: 3,141 from 19 libraries
+[    1.4s] cells per group: {'Healing': 1875, 'Nonhealing': 1266}
+[    1.4s] libraries per group: {'Healing': 12, 'Nonhealing': 7}
+[    1.5s] feature matrix (3141, 7900)
+[    8.4s] (1) per-cell sample-grouped CV AUC = 0.942 (sd 0.009 over 5 split seeds: [0.941, 0.926, 0.949, 0.943, 0.952])
+[    8.4s] (2) patient-level AUC from aggregated per-cell predictions = 0.726 (n = 19 patients; fraction-called variant 0.702)
+[    9.0s] (3) pseudobulk matrix (19, 25683), 7 non-healing / 12 healing
+[    9.6s] (3) pseudobulk leave-one-out AUC = 0.536
+[  430.1s] (4) per-cell permutation null AUC 0.424 +/- 0.181; p = 0.0000
+[  606.1s] (4) pseudobulk permutation null AUC 0.412 +/- 0.202; p = 0.3200
+[  682.9s] 
+=== LEARNING CURVE (per-cell AUC vs number of training patients) ===
+[  682.9s]  n_train_patients  mean_auc   sd_auc  n_reps
+                4  0.881795 0.072710      12
+                5  0.831458 0.125726      14
+                6  0.854738 0.152189      15
+                7  0.889270 0.073541      15
+                8  0.930473 0.083958      15
+                9  0.848648 0.174566      15
+               10  0.898860 0.093248      15
+               11  0.877184 0.141270      15
+               12  0.918013 0.073013      15
+               13  0.822972 0.228786      13
+               14  0.795931 0.219811      14
+               15  0.877034 0.236382      13
+               16  0.841792 0.199238      13
+               17  0.706396 0.356331       5
+[  683.5s] non-zero features: 120; top 15:
+    gene      coef      abs
+HLA-DQA2  1.323801 1.323801
+  RPS4Y1  0.844398 0.844398
+   RPS26  0.540057 0.540057
+   RPS20 -0.526305 0.526305
+  RPL13A -0.503498 0.503498
+    IGKC  0.482380 0.482380
+    XIST -0.461525 0.461525
+HLA-DRB1 -0.428790 0.428790
+   DDX3Y  0.374353 0.374353
+    TPT1  0.307140 0.307140
+  S100A9 -0.269300 0.269300
+    FOSB  0.255075 0.255075
+ TSC22D3  0.254940 0.254940
+      GK -0.252598 0.252598
+ HNRNPA0  0.239780 0.239780
+[  683.5s] 
+=== STEP 07 COMPLETE ===
+{
+  "n_macrophages": 3141,
+  "n_patients": 19,
+  "patients_per_group": {
+    "Healing": 12,
+    "Nonhealing": 7
+  },
+  "percell_grouped_auc": 0.9419144391785149,
+  "percell_seed_aucs": [
+    0.9406833070036863,
+    0.9255582938388625,
+    0.9491058451816745,
+    0.942603896787783,
+    0.9516208530805687
+  ],
+  "percell_auc_sd": 0.009115320287724098,
+  "percell_permutation_p": 0.0,
+  "percell_null_mean": 0.42435448463137637,
+  "patient_aggregated_auc": 0.7261904761904762,
+  "patient_aggregated_auc_fraction": 0.7023809523809523,
+  "pseudobulk_loo_auc": 0.5357142857142857,
+  "pseudobulk_permutation_p": 0.32,
+  "pseudobulk_null_mean": 0.4119047619047619,
+  "n_nonzero_features": 120
+}

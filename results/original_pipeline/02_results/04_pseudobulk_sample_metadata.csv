@@ -1,0 +1,42 @@
+gid,gsm,tissue,group,condition,n_cells
+G1,GSM5050521,Forearm,Healthy,Healthy non-diabetic,96
+G1A,GSM5050522,Foot,Diabetic,Diabetic without DFU,28
+G2,GSM5050523,Foot,Healing,Healing DFU,67
+G2A,GSM5050524,Foot,Diabetic,Diabetic without DFU,21
+G3,GSM5050525,Foot,Diabetic,Diabetic without DFU,86
+G3A,GSM5050526,Foot,Diabetic,Diabetic without DFU,36
+G4,GSM5050527,Foot,Healing,Healing DFU,363
+G4A,GSM5050528,Forearm,Diabetic,Diabetic without DFU,37
+G5,GSM5050529,Foot,Diabetic,Diabetic without DFU,87
+G6,GSM5050530,Foot,Nonhealing,Non-healing DFU,26
+G7,GSM5050531,Foot,Healing,Healing DFU,53
+G8,GSM5050532,Foot,Healing,Healing DFU,338
+G9,GSM5050533,Foot,Nonhealing,Non-healing DFU,11
+G10,GSM5050534,Foot,Healthy,Healthy non-diabetic,130
+G11,GSM5050535,Forearm,Nonhealing,Non-healing DFU,45
+G12,GSM5050536,Forearm,Healing,Healing DFU,28
+G13,GSM5050537,Forearm,Healing,Healing DFU,170
+G14,GSM5050538,Foot,Healthy,Healthy non-diabetic,58
+G15,GSM5050539,Foot,Healing,Healing DFU,299
+G16,GSM5050540,Foot,Healthy,Healthy non-diabetic,114
+G17,GSM5050541,Forearm,Healing,Healing DFU,28
+G18,GSM5050542,Forearm,Healthy,Healthy non-diabetic,116
+G23,GSM5050547,Foot,Healing,Healing DFU,379
+G24,GSM5050548,Foot,Healthy,Healthy non-diabetic,72
+G28,GSM5050552,Foot,Healthy,Healthy non-diabetic,40
+G29,GSM5050553,Forearm,Healthy,Healthy non-diabetic,79
+G31,GSM5050555,Foot,Healthy,Healthy non-diabetic,87
+G32,GSM5050556,Foot,Healthy,Healthy non-diabetic,48
+G33,GSM5050557,Foot,Nonhealing,Non-healing DFU,585
+G34,GSM5050558,Foot,Nonhealing,Non-healing DFU,448
+G35,GSM5050559,Forearm,Nonhealing,Non-healing DFU,138
+G36,GSM5050560,Forearm,Healthy,Healthy non-diabetic,488
+G38,GSM5050562,Foot,Diabetic,Diabetic without DFU,86
+G39,GSM5050563,Foot,Nonhealing,Non-healing DFU,13
+G40,GSM5050564,Foot,Healthy,Healthy non-diabetic,11
+G42,GSM5050566,Foot,Healing,Healing DFU,21
+G44,GSM5050568,Foot,Healthy,Healthy non-diabetic,13
+G45,GSM5050569,Foot,Healing,Healing DFU,101
+G48,GSM5050572,Forearm,Diabetic,Diabetic without DFU,67
+G49,GSM5050573,Foot,Healing,Healing DFU,28
+G50,GSM5050574,Foot,Healthy,Healthy non-diabetic,10

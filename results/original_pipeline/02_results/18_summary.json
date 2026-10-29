@@ -1,0 +1,20 @@
+{
+  "n_panel_tested": 121,
+  "n_stable": 5,
+  "n_resamples": 25,
+  "top_genes": [
+    "S100A9",
+    "HIF1A",
+    "GK",
+    "COL3A1",
+    "COL1A1",
+    "CD99",
+    "APOD",
+    "EGFL7",
+    "TIMP1",
+    "AREG",
+    "SRGN",
+    "TGFB1"
+  ],
+  "n_patient_level_sig": 0
+}

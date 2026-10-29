@@ -1,0 +1,20 @@
+/home/gibh/micromamba/envs/liver_sc/lib/python3.10/site-packages/h5py/__init__.py:36: UserWarning: h5py is running against HDF5 2.2.0 when it was built against 2.1.0, this may cause problems
+  _warn(("h5py is running against HDF5 {0} when it was built against {1}, "
+/home/gibh/micromamba/envs/liver_sc/lib/python3.10/site-packages/louvain/__init__.py:54: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+loading objects ...
+atlas (97677, 25683), myeloid (7756, 25683)
+
+>>> figure_R1
+    saved FigureR1_revised_QC_and_recovery: FigureR1_revised_QC_and_recovery.png, FigureR1_revised_QC_and_recovery.pdf, FigureR1_revised_QC_and_recovery.tiff
+
+>>> figure_R2
+    saved FigureR2_revised_full_atlas: FigureR2_revised_full_atlas.png, FigureR2_revised_full_atlas.pdf, FigureR2_revised_full_atlas.tiff
+
+>>> figure_R3
+    saved FigureR3_revised_myeloid_compartment: FigureR3_revised_myeloid_compartment.png, FigureR3_revised_myeloid_compartment.pdf, FigureR3_revised_myeloid_compartment.tiff
+
+>>> figure_R4
+    saved FigureR4_revised_functional_programmes: FigureR4_revised_functional_programmes.png, FigureR4_revised_functional_programmes.pdf, FigureR4_revised_functional_programmes.tiff
+
+=== STEP 08a COMPLETE ===

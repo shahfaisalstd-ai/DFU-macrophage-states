@@ -1,0 +1,11 @@
+{
+  "macrophage_cells": 4969,
+  "pseudobulk_samples": 41,
+  "deseq2_samples": 19,
+  "deseq2_genes": 16052,
+  "deseq2_sig_FDR05": 1,
+  "groups": {
+    "Healing": 12,
+    "Nonhealing": 7
+  }
+}

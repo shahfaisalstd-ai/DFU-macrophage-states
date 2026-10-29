@@ -1,0 +1,60 @@
+/home/gibh/micromamba/envs/liver_sc/lib/python3.10/site-packages/h5py/__init__.py:36: UserWarning: h5py is running against HDF5 2.2.0 when it was built against 2.1.0, this may cause problems
+  _warn(("h5py is running against HDF5 {0} when it was built against {1}, "
+/home/gibh/micromamba/envs/liver_sc/lib/python3.10/site-packages/louvain/__init__.py:54: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
+[    0.0s] ligand-receptor database: 205 pairs
+[    7.9s] 18 sender/receiver classes over 97,677 cells
+[    7.9s] Fibroblast                  24826
+Keratinocyte                18053
+Smooth muscle               14679
+Endothelial                  8755
+Pericyte                     7310
+T cell                       6228
+Erythrocyte                  3659
+Dendritic cell               2787
+Macrophage: resident         2640
+NK cell                      1803
+Macrophage: inflammatory     1701
+B/Plasma cell                1075
+Lymphatic EC                  989
+Mast cell                     751
+Melanocyte                    700
+Macrophage: lipid-assoc.      628
+Sweat gland                   592
+Schwann cell                  501
+[    7.9s] 204 pairs with both partners in the atlas
+[    8.5s] score tensor (18, 18, 204); 7,845 sender-receiver-pair combinations pass the detection filter
+[    8.5s] permuting cell-type labels 200 times ...
+[   11.4s]   50/200
+[   14.2s]   100/200
+[   17.1s]   150/200
+[   19.9s]   200/200
+[   20.1s] 7,845 tested interactions, 4,343 significant at FDR < 0.05
+[   20.1s] top senders by outgoing strength:
+                            outgoing    incoming
+Fibroblast                476.373093  211.497365
+Pericyte                  358.610421  211.688303
+Lymphatic EC              299.316128  164.375047
+Smooth muscle             226.598361  158.713422
+Endothelial               199.252592  217.721219
+Macrophage: inflammatory  193.477404  227.086041
+[   20.5s] 
+per-library contrast over 47,004 cells from 19 libraries
+[   21.8s] per-library macrophage interaction records: 101,231
+[   22.1s] 
+patient-level macrophage interaction tests: 237; 0 at FDR < 0.05, 26 at nominal P < 0.05
+[   22.1s] top 12 by P:
+        pair direction  mean_nonhealing  mean_healing  log2_ratio        p     padj
+  THBS1-CD47  incoming         1.128961      5.441681   -2.269057 0.005239 0.441958
+  CSF3-CSF3R  incoming         0.069512      0.412334   -2.568486 0.007992 0.441958
+   EREG-EGFR  outgoing         1.133836      2.542557   -1.165068 0.010989 0.441958
+COL3A1-ITGA1  outgoing         0.764174      3.882435   -2.344988 0.013575 0.441958
+  THBS2-CD47  incoming         1.206719      4.494010   -1.896914 0.017068 0.441958
+COL1A1-ITGA1  outgoing         0.911949      4.246998   -2.219418 0.018207 0.441958
+  THBS1-CD47  outgoing         2.109968      6.163672   -1.546569 0.019314 0.441958
+  THBS1-CD36  outgoing         0.861941      2.578505   -1.580874 0.019314 0.441958
+  EDN1-EDNRB  incoming         0.047485      0.171481   -1.852493 0.019314 0.441958
+   FN1-ITGAV  outgoing         0.623494      2.796200   -2.165020 0.023976 0.441958
+COL1A2-ITGA2  outgoing         0.222869      0.931467   -2.063307 0.024456 0.441958
+ THBS1-ITGB1  incoming         1.988630      6.020642   -1.598143 0.024456 0.441958
+[   22.1s] === STEP 13 COMPLETE ===

@@ -1,0 +1,25 @@
+
+>>> figure_R9
+    saved FigureR9_revised_trajectory: FigureR9_revised_trajectory.png, FigureR9_revised_trajectory.pdf, FigureR9_revised_trajectory.tiff
+
+>>> figure_R10
+Looks like you are using a tranform that doesn't support FancyArrowPatch, using ax.annotate instead. The arrows might strike through texts. Increasing shrinkA in arrowprops might help.
+    saved FigureR10_revised_communication: FigureR10_revised_communication.png, FigureR10_revised_communication.pdf, FigureR10_revised_communication.tiff
+
+>>> figure_R11
+    saved FigureR11_revised_bulk_landscape: FigureR11_revised_bulk_landscape.png, FigureR11_revised_bulk_landscape.pdf, FigureR11_revised_bulk_landscape.tiff
+
+>>> figure_R12
+    saved FigureR12_revised_networks: FigureR12_revised_networks.png, FigureR12_revised_networks.pdf, FigureR12_revised_networks.tiff
+
+>>> figure_R13
+    saved FigureR13_revised_bulk_ml: FigureR13_revised_bulk_ml.png, FigureR13_revised_bulk_ml.pdf, FigureR13_revised_bulk_ml.tiff
+
+>>> figure_R14_R15
+    saved FigureR14_revised_prioritised_genes: FigureR14_revised_prioritised_genes.png, FigureR14_revised_prioritised_genes.pdf, FigureR14_revised_prioritised_genes.tiff
+    saved FigureR15_revised_perturbation: FigureR15_revised_perturbation.png, FigureR15_revised_perturbation.pdf, FigureR15_revised_perturbation.tiff
+
+>>> figure_R16
+    saved FigureR16_confounder_audit: FigureR16_confounder_audit.png, FigureR16_confounder_audit.pdf, FigureR16_confounder_audit.tiff
+
+=== STEP 19 COMPLETE ===

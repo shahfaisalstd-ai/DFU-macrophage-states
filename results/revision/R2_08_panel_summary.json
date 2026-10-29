@@ -1,0 +1,14 @@
+{
+  "n": 129,
+  "testable_external": 128,
+  "same_direction": 84,
+  "replicated_P05": 11,
+  "replicated_FDR05": 0,
+  "sc_FDR05_unadj": 0,
+  "sc_FDR05_adj": 0,
+  "bulk_FDR05": 13,
+  "uses_GSE134431": 32,
+  "per_cell_only": 0,
+  "sc_bulk_same_direction": 67,
+  "sc_bulk_testable": 129
+}

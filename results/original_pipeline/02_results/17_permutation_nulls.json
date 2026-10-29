@@ -1,0 +1,23 @@
+{
+  "all genes (k=200 selected in-fold)": {
+    "model": "L1 logistic",
+    "observed": 0.738095238095238,
+    "null_mean": 0.49247619047619046,
+    "null_sd": 0.23237429732859208,
+    "p": 0.18
+  },
+  "consensus panel": {
+    "model": "L1 logistic",
+    "observed": 0.9761904761904763,
+    "null_mean": 0.4747380952380952,
+    "null_sd": 0.25280151280260066,
+    "p": 0.012
+  },
+  "canonical wound genes": {
+    "model": "Gradient boosting",
+    "observed": 0.6190476190476191,
+    "null_mean": 0.37966666666666665,
+    "null_sd": 0.2215579294445885,
+    "p": 0.178
+  }
+}

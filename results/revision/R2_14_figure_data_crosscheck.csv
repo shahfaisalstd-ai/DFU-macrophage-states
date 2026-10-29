@@ -1,0 +1,25 @@
+previous_file,revised_figure_source,key,rows_compared,columns_compared,max_abs_difference,identical,note
+04_raw_data_by_figure/FigureR1b_QC_threshold_sensitivity.csv,Figure2B_QC_threshold_grid.csv,rule,5,n_pass,0.0,True,
+04_raw_data_by_figure/FigureR1c_myeloid_recovery.csv,Figure2C_myeloid_recovery.csv,analysis,2,"atlas_cells, myeloid_cells, pct",0.0,True,
+04_raw_data_by_figure/FigureR3b_myeloid_composition.csv,Figure4B_myeloid_composition_pooled.csv,group,4,"Inflammatory monocyte-macrophage, LC/Langerhans, Lipid-associated macrophage, Mature/migratory DC, Proliferating myeloid, Resident M2-like macrophage, cDC1, cDC2, pDC",0.0,True,
+04_raw_data_by_figure/FigureR4b_M1_M2_scores.csv,Figure5B_M1_M2_per_cell.csv,cell,3141,"ms_Classical_M1, ms_Alternative_M2, ms_Resident_tissue, ms_Inflammatory_mono",4.440892098500626e-16,True,
+04_raw_data_by_figure/FigureR5a_patient_vs_cell_level_P.csv,Figure6A_cell_vs_library_P.csv,programme,13,"n_nonhealing, n_healing, mean_nonhealing, mean_healing, hodges_lehmann, rank_biserial, p_patient_level, p_cell_level, n_cells_nonhealing, n_cells_healing, padj_patient_level, padj_cell_level, log10_p_inflation",3.622271631530685e-71,True,
+04_raw_data_by_figure/FigureR6b_lambda_benchmark.csv,Figure10B_lambda.csv,"['benchmark', 'lambda']",16,"rmse, mae, pearson, mac_rmse, mac_pearson",0.0,True,
+04_raw_data_by_figure/FigureR6c_reference_size_benchmark.csv,Figure10C_reference_size.csv,reference,2,"n_cells, n_macrophages, rmse, mae, pearson, mac_rmse, mac_pearson",0.0,True,
+04_raw_data_by_figure/FigureR7c_variance_site_vs_healing.csv,Figure14C_site_vs_healing_variance.csv,Symbol,4000,"eta2_site, eta2_healing",0.0,True,
+04_raw_data_by_figure/FigureR8d_learning_curve.csv,Figure13D_learning_curve.csv,n_train_patients,14,"mean_auc, sd_auc, n_reps",0.0,True,
+04_raw_data_by_figure/FigureR11d_representative_genes.csv,Figure9D_representative_genes.csv,gene,24,"mean_nonhealing, mean_healing, log2FC, p",0.0,True,
+04_raw_data_by_figure/FigureR4a_programme_by_subtype.csv,Figure5A_programme_heatmap.csv,myeloid population,9,13 programmes (previous means z-scored across populations),2.220446049250313e-16,True,revised panel shows z-scores of the identical means; populations renamed as transcriptional states
+04_raw_data_by_figure/FigureR4c_patient_level_programme_scores.csv,Figure5C_library_programme_scores.csv,programme x group,8,group mean of library scores,5.551115123125783e-17,True,revised panel adds bootstrap CIs to the same library values
+04_raw_data_by_figure/FigureR9e_trajectory_gene_patterns.csv,Figure7D/7E (from 02_results/12_trajectory_gene_patterns.csv),gene,300,pattern assignment,0.0,True,number of genes whose pattern differs
+04_raw_data_by_figure/FigureR6d_macrophage_abundance.csv,Figure10D_marker_score.csv,GSM,13,macrophage_marker_score,0.0,True,
+04_raw_data_by_figure/FigureR1a_persample_QC.csv,Figure2A_cells_per_library.csv,library,44,,0.0,True,cells in GEO matrix and after QC (recounted from GEO in R2_01/R2_04)
+04_raw_data_by_figure/FigureR2a_celltype_counts.csv,Figure 3A (02_results/03_celltype_by_group_counts.csv),cell type,15,,0.0,True,total 97677 cells = atlas size
+04_raw_data_by_figure/FigureR2c_composition_by_group.csv,Figure 3C (02_results/03_celltype_by_group_counts.csv),group x cell type,60,,1.7763568394002505e-15,True,
+04_raw_data_by_figure/FigureR3c_marker_mean_expression.csv,Figure4C_marker_dotplot.csv,population x gene,180,,3.9999999978945766e-07,True,mean log-expression; revised panel adds detection fraction
+04_raw_data_by_figure/FigureR7a_concordance_by_evidence.csv,Figure14A_replication_CIs.csv,gene set,6,,0.0,True,revised panel adds CIs for the replication rate
+04_raw_data_by_figure/FigureR8a_auc_by_evaluation.csv,Figure13A (cell naive),evaluation,1,,1.1102230246251565e-16,True,
+04_raw_data_by_figure/FigureR8a_auc_by_evaluation.csv,Figure13A (cell grouped),evaluation,1,,0.0004900347551339834,True,equal within the 3-decimal rounding of R2_06_classifier_AUC_CIs.csv
+04_raw_data_by_figure/FigureR8a_auc_by_evaluation.csv,Figure13A (cell LOPO),evaluation,1,,0.0004661400737232535,True,equal within the 3-decimal rounding of R2_06_classifier_AUC_CIs.csv
+04_raw_data_by_figure/FigureR8a_auc_by_evaluation.csv,Figure13A (patient aggregated),evaluation,1,,0.0,True,
+04_raw_data_by_figure/FigureR8a_auc_by_evaluation.csv,Figure13A (patient pseudobulk),evaluation,1,,0.011714285714285677,False,differs by design: previous pseudobulk summed log-normalised values; revised one sums raw counts (0.536 -> 0.524)

@@ -1,0 +1,714 @@
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [ 1949  5259  5474  7043  7699  8519 10953 10981 11137 15594 16254 17581] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [ 2270  3605  4382  5436  6024  7428  7668  8136  8309  8485  8841  8903
+  9357 10821 10832 11403 12247 13110 13999 14321 14949 15648] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [  457   484  2115  2858  2886  3095  4878  5364  5907  6714  7923  8541
+  8543  9835  9895  9993 10448 10986 13111 15103 17654] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [   53   655  1006  3543  4008  4012  5206  5207  5456  5663  5937  6004
+  8116  8133  9834 10339 10426 10478 10902 10924 10950 11043 11269 12241
+ 12244 12245 12246 12272 12291 13522 13803 14449 15075 15823 15852 16129
+ 16251] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [  588  1653  3532  4493  5683  7760  8496  8548  9557 10244 10311 10694
+ 10810 10914 11544 11942 12117 12453 17160 17455] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [ 1600  1741  1779  2356  2709  2710  3932  4883  4942  5148  5797  5798
+  5799  5800  5801  5802  6282  6338  7103  8040  8175  8257  8549  8904
+  9118 10226 10453 10723 10875 10879 10888 10905 10917 10947 10957 10971
+ 11172 11426 12242 12442 14501 14618 14645 15917 16094 16258 16484 16587
+ 17260 17374 18480] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [  877  1146  1754  2302  2593  4010  4011  4199  4200  4805  5461  6088
+  7610  7758  8811  9471  9479  9647 10310 10815 10880 10906 10965 10983
+ 14754 14969 14970 14972 15300 15885 17162 17910] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [  275   696  1753  2612  3619  4370  4936  5051  5701  5803  5977  8524
+  8581  8760 10202 10812 10820 10823 10889 10898 10915 10916 10962 10989
+ 11138 14805 15769 15875 15892 16287 16563 17583 17926 18346] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [ 2139  4193  5900  6048  6526  6914  7724  9693 12067 14488 15237 17411] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [ 1943  3504  4016  5070  8135 10204 10868 10892 10894 10932 10938 10940
+ 12580 13081] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [ 1953  2052  2682  2683  2851  2852  3827  3866  4274  5227  5406  6017
+  6279  7196  7210  7582  7788  8132  8284  8525  8824  8845 10765 10919
+ 10937 10956 10959 16396] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [ 1599  4075  4197  5008  6032  7709  8493  9103  9490 10808 10827 10978
+ 12354 14992 15001 15821 15872] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [   59   513   605   619   850  1051  1217  2027  2197  2260  2361  3147
+  3244  3764  4015  4198  4464  5044  5498  5766  5784  5997  6639  6659
+  6940  7922  8121  8122  8126  8129  8134  8547  9473  9789  9846 10038
+ 10809 10814 10887 10890 10903 10930 10933 10939 10984 10985 11036 11550
+ 12068 12263 12999 13000 13001 13002 13335 13624 14085 14785 14971 14973
+ 15092 15242 15553 15734 15884 16567 16644 17266 17594 17921] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [   11    53   596   655  1006  1949  2139  3543  3595  4008  4012  4193
+  5206  5207  5259  5456  5474  5663  5900  5937  6004  6048  6526  6914
+  7043  7699  7724  8116  8133  8519  8897  9693  9834 10339 10426 10478
+ 10872 10902 10924 10950 10953 10981 11043 11137 11269 12067 12241 12244
+ 12245 12246 12272 12291 13522 13803 14449 14488 15075 15237 15594 15823
+ 15852 16129 16251 16254 16707 17411 17581] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [   59   513   588   605   619   850  1051  1217  1653  1989  2027  2197
+  2260  2270  2361  3147  3244  3532  3536  3605  3764  4015  4198  4382
+  4464  4493  5044  5401  5436  5498  5616  5683  5766  5778  5784  5997
+  6024  6325  6639  6659  6940  7342  7428  7668  7760  7922  8121  8122
+  8126  8129  8134  8136  8309  8472  8485  8496  8547  8548  8841  8903
+  9357  9473  9557  9789  9846  9913 10038 10244 10311 10694 10809 10810
+ 10814 10821 10832 10887 10890 10903 10914 10930 10933 10939 10984 10985
+ 11036 11403 11544 11550 11942 12068 12117 12247 12263 12453 12999 13000
+ 13001 13002 13110 13155 13335 13624 13999 14085 14321 14326 14785 14949
+ 14971 14973 14974 15092 15242 15553 15648 15734 15884 16567 16644 17106
+ 17160 17266 17455 17594 17921] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [  457   484  1599  1953  2052  2115  2682  2683  2851  2852  2858  2886
+  3095  3827  3866  4075  4197  4274  4878  5008  5227  5364  5406  5907
+  6017  6032  6056  6279  6714  7196  7210  7582  7709  7788  7923  8132
+  8284  8459  8493  8525  8541  8543  8824  8845  9103  9490  9835  9895
+  9993 10448 10765 10808 10827 10919 10925 10937 10956 10959 10978 10986
+ 12354 13111 14769 14992 15001 15103 15722 15821 15872 16396 16777 17654] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [  275   696  1600  1741  1753  1779  2026  2356  2612  2709  2710  3619
+  3932  4370  4883  4936  4942  5051  5148  5701  5797  5798  5799  5800
+  5801  5802  5803  5977  6282  6338  7103  8040  8175  8257  8524  8549
+  8581  8760  8904  9118 10202 10226 10453 10723 10812 10820 10823 10875
+ 10879 10888 10889 10898 10905 10915 10916 10917 10947 10957 10962 10971
+ 10989 11138 11172 11426 12242 12442 13972 14501 14618 14645 14805 15769
+ 15875 15892 15917 16094 16258 16287 16484 16563 16587 17163 17260 17374
+ 17583 17926 18346 18480] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [  877  1146  1754  1943  2302  2593  3504  4010  4011  4016  4199  4200
+  4805  5070  5461  6088  6974  7610  7758  8135  8811  9471  9479  9647
+ 10204 10310 10815 10868 10880 10892 10894 10906 10932 10938 10940 10965
+ 10983 12580 13081 14754 14969 14970 14972 15300 15885 17162 17910] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+{'cohort': 'GSE134431 (internal, n=13)', 'feature_set': 'all genes (k=200 selected in-fold)', 'model': 'L1 logistic', 'cv5_auc': 0.262, 'cv5_ci_low': 0.0, 'cv5_ci_high': 0.551, 'loo_auc': 0.738, 'loo_ci_low': 0.422, 'loo_ci_high': 1.0, 'previous_loo_auc': 0.738}
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [ 1949  5259  5474  7043  7699  8519 10953 10981 11137 15594 16254 17581] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [ 2270  3605  4382  5436  6024  7428  7668  8136  8309  8485  8841  8903
+  9357 10821 10832 11403 12247 13110 13999 14321 14949 15648] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [  457   484  2115  2858  2886  3095  4878  5364  5907  6714  7923  8541
+  8543  9835  9895  9993 10448 10986 13111 15103 17654] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [   53   655  1006  3543  4008  4012  5206  5207  5456  5663  5937  6004
+  8116  8133  9834 10339 10426 10478 10902 10924 10950 11043 11269 12241
+ 12244 12245 12246 12272 12291 13522 13803 14449 15075 15823 15852 16129
+ 16251] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [  588  1653  3532  4493  5683  7760  8496  8548  9557 10244 10311 10694
+ 10810 10914 11544 11942 12117 12453 17160 17455] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [ 1600  1741  1779  2356  2709  2710  3932  4883  4942  5148  5797  5798
+  5799  5800  5801  5802  6282  6338  7103  8040  8175  8257  8549  8904
+  9118 10226 10453 10723 10875 10879 10888 10905 10917 10947 10957 10971
+ 11172 11426 12242 12442 14501 14618 14645 15917 16094 16258 16484 16587
+ 17260 17374 18480] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [  877  1146  1754  2302  2593  4010  4011  4199  4200  4805  5461  6088
+  7610  7758  8811  9471  9479  9647 10310 10815 10880 10906 10965 10983
+ 14754 14969 14970 14972 15300 15885 17162 17910] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [  275   696  1753  2612  3619  4370  4936  5051  5701  5803  5977  8524
+  8581  8760 10202 10812 10820 10823 10889 10898 10915 10916 10962 10989
+ 11138 14805 15769 15875 15892 16287 16563 17583 17926 18346] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [ 2139  4193  5900  6048  6526  6914  7724  9693 12067 14488 15237 17411] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [ 1943  3504  4016  5070  8135 10204 10868 10892 10894 10932 10938 10940
+ 12580 13081] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [ 1953  2052  2682  2683  2851  2852  3827  3866  4274  5227  5406  6017
+  6279  7196  7210  7582  7788  8132  8284  8525  8824  8845 10765 10919
+ 10937 10956 10959 16396] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [ 1599  4075  4197  5008  6032  7709  8493  9103  9490 10808 10827 10978
+ 12354 14992 15001 15821 15872] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [   59   513   605   619   850  1051  1217  2027  2197  2260  2361  3147
+  3244  3764  4015  4198  4464  5044  5498  5766  5784  5997  6639  6659
+  6940  7922  8121  8122  8126  8129  8134  8547  9473  9789  9846 10038
+ 10809 10814 10887 10890 10903 10930 10933 10939 10984 10985 11036 11550
+ 12068 12263 12999 13000 13001 13002 13335 13624 14085 14785 14971 14973
+ 15092 15242 15553 15734 15884 16567 16644 17266 17594 17921] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [   11    53   596   655  1006  1949  2139  3543  3595  4008  4012  4193
+  5206  5207  5259  5456  5474  5663  5900  5937  6004  6048  6526  6914
+  7043  7699  7724  8116  8133  8519  8897  9693  9834 10339 10426 10478
+ 10872 10902 10924 10950 10953 10981 11043 11137 11269 12067 12241 12244
+ 12245 12246 12272 12291 13522 13803 14449 14488 15075 15237 15594 15823
+ 15852 16129 16251 16254 16707 17411 17581] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [   59   513   588   605   619   850  1051  1217  1653  1989  2027  2197
+  2260  2270  2361  3147  3244  3532  3536  3605  3764  4015  4198  4382
+  4464  4493  5044  5401  5436  5498  5616  5683  5766  5778  5784  5997
+  6024  6325  6639  6659  6940  7342  7428  7668  7760  7922  8121  8122
+  8126  8129  8134  8136  8309  8472  8485  8496  8547  8548  8841  8903
+  9357  9473  9557  9789  9846  9913 10038 10244 10311 10694 10809 10810
+ 10814 10821 10832 10887 10890 10903 10914 10930 10933 10939 10984 10985
+ 11036 11403 11544 11550 11942 12068 12117 12247 12263 12453 12999 13000
+ 13001 13002 13110 13155 13335 13624 13999 14085 14321 14326 14785 14949
+ 14971 14973 14974 15092 15242 15553 15648 15734 15884 16567 16644 17106
+ 17160 17266 17455 17594 17921] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [  457   484  1599  1953  2052  2115  2682  2683  2851  2852  2858  2886
+  3095  3827  3866  4075  4197  4274  4878  5008  5227  5364  5406  5907
+  6017  6032  6056  6279  6714  7196  7210  7582  7709  7788  7923  8132
+  8284  8459  8493  8525  8541  8543  8824  8845  9103  9490  9835  9895
+  9993 10448 10765 10808 10827 10919 10925 10937 10956 10959 10978 10986
+ 12354 13111 14769 14992 15001 15103 15722 15821 15872 16396 16777 17654] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [  275   696  1600  1741  1753  1779  2026  2356  2612  2709  2710  3619
+  3932  4370  4883  4936  4942  5051  5148  5701  5797  5798  5799  5800
+  5801  5802  5803  5977  6282  6338  7103  8040  8175  8257  8524  8549
+  8581  8760  8904  9118 10202 10226 10453 10723 10812 10820 10823 10875
+ 10879 10888 10889 10898 10905 10915 10916 10917 10947 10957 10962 10971
+ 10989 11138 11172 11426 12242 12442 13972 14501 14618 14645 14805 15769
+ 15875 15892 15917 16094 16258 16287 16484 16563 16587 17163 17260 17374
+ 17583 17926 18346 18480] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [  877  1146  1754  1943  2302  2593  3504  4010  4011  4016  4199  4200
+  4805  5070  5461  6088  6974  7610  7758  8135  8811  9471  9479  9647
+ 10204 10310 10815 10868 10880 10892 10894 10906 10932 10938 10940 10965
+ 10983 12580 13081 14754 14969 14970 14972 15300 15885 17162 17910] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+{'cohort': 'GSE134431 (internal, n=13)', 'feature_set': 'all genes (k=200 selected in-fold)', 'model': 'L2 logistic', 'cv5_auc': 0.286, 'cv5_ci_low': 0.0, 'cv5_ci_high': 0.596, 'loo_auc': 0.476, 'loo_ci_low': 0.124, 'loo_ci_high': 0.828, 'previous_loo_auc': 0.476}
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [ 1949  5259  5474  7043  7699  8519 10953 10981 11137 15594 16254 17581] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [ 2270  3605  4382  5436  6024  7428  7668  8136  8309  8485  8841  8903
+  9357 10821 10832 11403 12247 13110 13999 14321 14949 15648] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [  457   484  2115  2858  2886  3095  4878  5364  5907  6714  7923  8541
+  8543  9835  9895  9993 10448 10986 13111 15103 17654] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [   53   655  1006  3543  4008  4012  5206  5207  5456  5663  5937  6004
+  8116  8133  9834 10339 10426 10478 10902 10924 10950 11043 11269 12241
+ 12244 12245 12246 12272 12291 13522 13803 14449 15075 15823 15852 16129
+ 16251] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [  588  1653  3532  4493  5683  7760  8496  8548  9557 10244 10311 10694
+ 10810 10914 11544 11942 12117 12453 17160 17455] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [ 1600  1741  1779  2356  2709  2710  3932  4883  4942  5148  5797  5798
+  5799  5800  5801  5802  6282  6338  7103  8040  8175  8257  8549  8904
+  9118 10226 10453 10723 10875 10879 10888 10905 10917 10947 10957 10971
+ 11172 11426 12242 12442 14501 14618 14645 15917 16094 16258 16484 16587
+ 17260 17374 18480] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [  877  1146  1754  2302  2593  4010  4011  4199  4200  4805  5461  6088
+  7610  7758  8811  9471  9479  9647 10310 10815 10880 10906 10965 10983
+ 14754 14969 14970 14972 15300 15885 17162 17910] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [  275   696  1753  2612  3619  4370  4936  5051  5701  5803  5977  8524
+  8581  8760 10202 10812 10820 10823 10889 10898 10915 10916 10962 10989
+ 11138 14805 15769 15875 15892 16287 16563 17583 17926 18346] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [ 2139  4193  5900  6048  6526  6914  7724  9693 12067 14488 15237 17411] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [ 1943  3504  4016  5070  8135 10204 10868 10892 10894 10932 10938 10940
+ 12580 13081] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [ 1953  2052  2682  2683  2851  2852  3827  3866  4274  5227  5406  6017
+  6279  7196  7210  7582  7788  8132  8284  8525  8824  8845 10765 10919
+ 10937 10956 10959 16396] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [ 1599  4075  4197  5008  6032  7709  8493  9103  9490 10808 10827 10978
+ 12354 14992 15001 15821 15872] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [   59   513   605   619   850  1051  1217  2027  2197  2260  2361  3147
+  3244  3764  4015  4198  4464  5044  5498  5766  5784  5997  6639  6659
+  6940  7922  8121  8122  8126  8129  8134  8547  9473  9789  9846 10038
+ 10809 10814 10887 10890 10903 10930 10933 10939 10984 10985 11036 11550
+ 12068 12263 12999 13000 13001 13002 13335 13624 14085 14785 14971 14973
+ 15092 15242 15553 15734 15884 16567 16644 17266 17594 17921] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [   11    53   596   655  1006  1949  2139  3543  3595  4008  4012  4193
+  5206  5207  5259  5456  5474  5663  5900  5937  6004  6048  6526  6914
+  7043  7699  7724  8116  8133  8519  8897  9693  9834 10339 10426 10478
+ 10872 10902 10924 10950 10953 10981 11043 11137 11269 12067 12241 12244
+ 12245 12246 12272 12291 13522 13803 14449 14488 15075 15237 15594 15823
+ 15852 16129 16251 16254 16707 17411 17581] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [   59   513   588   605   619   850  1051  1217  1653  1989  2027  2197
+  2260  2270  2361  3147  3244  3532  3536  3605  3764  4015  4198  4382
+  4464  4493  5044  5401  5436  5498  5616  5683  5766  5778  5784  5997
+  6024  6325  6639  6659  6940  7342  7428  7668  7760  7922  8121  8122
+  8126  8129  8134  8136  8309  8472  8485  8496  8547  8548  8841  8903
+  9357  9473  9557  9789  9846  9913 10038 10244 10311 10694 10809 10810
+ 10814 10821 10832 10887 10890 10903 10914 10930 10933 10939 10984 10985
+ 11036 11403 11544 11550 11942 12068 12117 12247 12263 12453 12999 13000
+ 13001 13002 13110 13155 13335 13624 13999 14085 14321 14326 14785 14949
+ 14971 14973 14974 15092 15242 15553 15648 15734 15884 16567 16644 17106
+ 17160 17266 17455 17594 17921] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [  457   484  1599  1953  2052  2115  2682  2683  2851  2852  2858  2886
+  3095  3827  3866  4075  4197  4274  4878  5008  5227  5364  5406  5907
+  6017  6032  6056  6279  6714  7196  7210  7582  7709  7788  7923  8132
+  8284  8459  8493  8525  8541  8543  8824  8845  9103  9490  9835  9895
+  9993 10448 10765 10808 10827 10919 10925 10937 10956 10959 10978 10986
+ 12354 13111 14769 14992 15001 15103 15722 15821 15872 16396 16777 17654] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [  275   696  1600  1741  1753  1779  2026  2356  2612  2709  2710  3619
+  3932  4370  4883  4936  4942  5051  5148  5701  5797  5798  5799  5800
+  5801  5802  5803  5977  6282  6338  7103  8040  8175  8257  8524  8549
+  8581  8760  8904  9118 10202 10226 10453 10723 10812 10820 10823 10875
+ 10879 10888 10889 10898 10905 10915 10916 10917 10947 10957 10962 10971
+ 10989 11138 11172 11426 12242 12442 13972 14501 14618 14645 14805 15769
+ 15875 15892 15917 16094 16258 16287 16484 16563 16587 17163 17260 17374
+ 17583 17926 18346 18480] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [  877  1146  1754  1943  2302  2593  3504  4010  4011  4016  4199  4200
+  4805  5070  5461  6088  6974  7610  7758  8135  8811  9471  9479  9647
+ 10204 10310 10815 10868 10880 10892 10894 10906 10932 10938 10940 10965
+ 10983 12580 13081 14754 14969 14970 14972 15300 15885 17162 17910] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+{'cohort': 'GSE134431 (internal, n=13)', 'feature_set': 'all genes (k=200 selected in-fold)', 'model': 'Random forest', 'cv5_auc': 0.357, 'cv5_ci_low': 0.019, 'cv5_ci_high': 0.695, 'loo_auc': 0.405, 'loo_ci_low': 0.066, 'loo_ci_high': 0.743, 'previous_loo_auc': 0.405}
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [ 1949  5259  5474  7043  7699  8519 10953 10981 11137 15594 16254 17581] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [ 2270  3605  4382  5436  6024  7428  7668  8136  8309  8485  8841  8903
+  9357 10821 10832 11403 12247 13110 13999 14321 14949 15648] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [  457   484  2115  2858  2886  3095  4878  5364  5907  6714  7923  8541
+  8543  9835  9895  9993 10448 10986 13111 15103 17654] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [   53   655  1006  3543  4008  4012  5206  5207  5456  5663  5937  6004
+  8116  8133  9834 10339 10426 10478 10902 10924 10950 11043 11269 12241
+ 12244 12245 12246 12272 12291 13522 13803 14449 15075 15823 15852 16129
+ 16251] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [  588  1653  3532  4493  5683  7760  8496  8548  9557 10244 10311 10694
+ 10810 10914 11544 11942 12117 12453 17160 17455] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [ 1600  1741  1779  2356  2709  2710  3932  4883  4942  5148  5797  5798
+  5799  5800  5801  5802  6282  6338  7103  8040  8175  8257  8549  8904
+  9118 10226 10453 10723 10875 10879 10888 10905 10917 10947 10957 10971
+ 11172 11426 12242 12442 14501 14618 14645 15917 16094 16258 16484 16587
+ 17260 17374 18480] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [  877  1146  1754  2302  2593  4010  4011  4199  4200  4805  5461  6088
+  7610  7758  8811  9471  9479  9647 10310 10815 10880 10906 10965 10983
+ 14754 14969 14970 14972 15300 15885 17162 17910] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [  275   696  1753  2612  3619  4370  4936  5051  5701  5803  5977  8524
+  8581  8760 10202 10812 10820 10823 10889 10898 10915 10916 10962 10989
+ 11138 14805 15769 15875 15892 16287 16563 17583 17926 18346] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [ 2139  4193  5900  6048  6526  6914  7724  9693 12067 14488 15237 17411] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [ 1943  3504  4016  5070  8135 10204 10868 10892 10894 10932 10938 10940
+ 12580 13081] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [ 1953  2052  2682  2683  2851  2852  3827  3866  4274  5227  5406  6017
+  6279  7196  7210  7582  7788  8132  8284  8525  8824  8845 10765 10919
+ 10937 10956 10959 16396] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [ 1599  4075  4197  5008  6032  7709  8493  9103  9490 10808 10827 10978
+ 12354 14992 15001 15821 15872] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [   59   513   605   619   850  1051  1217  2027  2197  2260  2361  3147
+  3244  3764  4015  4198  4464  5044  5498  5766  5784  5997  6639  6659
+  6940  7922  8121  8122  8126  8129  8134  8547  9473  9789  9846 10038
+ 10809 10814 10887 10890 10903 10930 10933 10939 10984 10985 11036 11550
+ 12068 12263 12999 13000 13001 13002 13335 13624 14085 14785 14971 14973
+ 15092 15242 15553 15734 15884 16567 16644 17266 17594 17921] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [   11    53   596   655  1006  1949  2139  3543  3595  4008  4012  4193
+  5206  5207  5259  5456  5474  5663  5900  5937  6004  6048  6526  6914
+  7043  7699  7724  8116  8133  8519  8897  9693  9834 10339 10426 10478
+ 10872 10902 10924 10950 10953 10981 11043 11137 11269 12067 12241 12244
+ 12245 12246 12272 12291 13522 13803 14449 14488 15075 15237 15594 15823
+ 15852 16129 16251 16254 16707 17411 17581] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [   59   513   588   605   619   850  1051  1217  1653  1989  2027  2197
+  2260  2270  2361  3147  3244  3532  3536  3605  3764  4015  4198  4382
+  4464  4493  5044  5401  5436  5498  5616  5683  5766  5778  5784  5997
+  6024  6325  6639  6659  6940  7342  7428  7668  7760  7922  8121  8122
+  8126  8129  8134  8136  8309  8472  8485  8496  8547  8548  8841  8903
+  9357  9473  9557  9789  9846  9913 10038 10244 10311 10694 10809 10810
+ 10814 10821 10832 10887 10890 10903 10914 10930 10933 10939 10984 10985
+ 11036 11403 11544 11550 11942 12068 12117 12247 12263 12453 12999 13000
+ 13001 13002 13110 13155 13335 13624 13999 14085 14321 14326 14785 14949
+ 14971 14973 14974 15092 15242 15553 15648 15734 15884 16567 16644 17106
+ 17160 17266 17455 17594 17921] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [  457   484  1599  1953  2052  2115  2682  2683  2851  2852  2858  2886
+  3095  3827  3866  4075  4197  4274  4878  5008  5227  5364  5406  5907
+  6017  6032  6056  6279  6714  7196  7210  7582  7709  7788  7923  8132
+  8284  8459  8493  8525  8541  8543  8824  8845  9103  9490  9835  9895
+  9993 10448 10765 10808 10827 10919 10925 10937 10956 10959 10978 10986
+ 12354 13111 14769 14992 15001 15103 15722 15821 15872 16396 16777 17654] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [  275   696  1600  1741  1753  1779  2026  2356  2612  2709  2710  3619
+  3932  4370  4883  4936  4942  5051  5148  5701  5797  5798  5799  5800
+  5801  5802  5803  5977  6282  6338  7103  8040  8175  8257  8524  8549
+  8581  8760  8904  9118 10202 10226 10453 10723 10812 10820 10823 10875
+ 10879 10888 10889 10898 10905 10915 10916 10917 10947 10957 10962 10971
+ 10989 11138 11172 11426 12242 12442 13972 14501 14618 14645 14805 15769
+ 15875 15892 15917 16094 16258 16287 16484 16563 16587 17163 17260 17374
+ 17583 17926 18346 18480] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:110: UserWarning: Features [  877  1146  1754  1943  2302  2593  3504  4010  4011  4016  4199  4200
+  4805  5070  5461  6088  6974  7610  7758  8135  8811  9471  9479  9647
+ 10204 10310 10815 10868 10880 10892 10894 10906 10932 10938 10940 10965
+ 10983 12580 13081 14754 14969 14970 14972 15300 15885 17162 17910] are constant.
+  warnings.warn("Features %s are constant." % constant_features_idx, UserWarning)
+/usr/local/lib/python3.13/dist-packages/sklearn/feature_selection/_univariate_selection.py:111: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+{'cohort': 'GSE134431 (internal, n=13)', 'feature_set': 'all genes (k=200 selected in-fold)', 'model': 'Gradient boosting', 'cv5_auc': 0.286, 'cv5_ci_low': 0.0, 'cv5_ci_high': 0.605, 'loo_auc': 0.595, 'loo_ci_low': 0.249, 'loo_ci_high': 0.942, 'previous_loo_auc': 0.548}
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+{'cohort': 'GSE134431 (internal, n=13)', 'feature_set': 'consensus panel', 'model': 'L1 logistic', 'cv5_auc': 0.857, 'cv5_ci_low': 0.649, 'cv5_ci_high': 1.0, 'loo_auc': 0.976, 'loo_ci_low': 0.91, 'loo_ci_high': 1.0, 'previous_loo_auc': 0.976}
+{'cohort': 'GSE134431 (internal, n=13)', 'feature_set': 'consensus panel', 'model': 'L2 logistic', 'cv5_auc': 0.595, 'cv5_ci_low': 0.251, 'cv5_ci_high': 0.94, 'loo_auc': 0.69, 'loo_ci_low': 0.364, 'loo_ci_high': 1.0, 'previous_loo_auc': 0.69}
+{'cohort': 'GSE134431 (internal, n=13)', 'feature_set': 'consensus panel', 'model': 'Random forest', 'cv5_auc': 0.643, 'cv5_ci_low': 0.282, 'cv5_ci_high': 1.0, 'loo_auc': 0.667, 'loo_ci_low': 0.317, 'loo_ci_high': 1.0, 'previous_loo_auc': 0.667}
+{'cohort': 'GSE134431 (internal, n=13)', 'feature_set': 'consensus panel', 'model': 'Gradient boosting', 'cv5_auc': 0.774, 'cv5_ci_low': 0.492, 'cv5_ci_high': 1.0, 'loo_auc': 0.833, 'loo_ci_low': 0.507, 'loo_ci_high': 1.0, 'previous_loo_auc': 0.833}
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+{'cohort': 'GSE134431 (internal, n=13)', 'feature_set': 'canonical wound genes', 'model': 'L1 logistic', 'cv5_auc': 0.31, 'cv5_ci_low': 0.0, 'cv5_ci_high': 0.638, 'loo_auc': 0.452, 'loo_ci_low': 0.099, 'loo_ci_high': 0.806, 'previous_loo_auc': 0.452}
+{'cohort': 'GSE134431 (internal, n=13)', 'feature_set': 'canonical wound genes', 'model': 'L2 logistic', 'cv5_auc': 0.429, 'cv5_ci_low': 0.086, 'cv5_ci_high': 0.771, 'loo_auc': 0.5, 'loo_ci_low': 0.15, 'loo_ci_high': 0.85, 'previous_loo_auc': 0.5}
+{'cohort': 'GSE134431 (internal, n=13)', 'feature_set': 'canonical wound genes', 'model': 'Random forest', 'cv5_auc': 0.452, 'cv5_ci_low': 0.1, 'cv5_ci_high': 0.805, 'loo_auc': 0.571, 'loo_ci_low': 0.2, 'loo_ci_high': 0.943, 'previous_loo_auc': 0.571}
+{'cohort': 'GSE134431 (internal, n=13)', 'feature_set': 'canonical wound genes', 'model': 'Gradient boosting', 'cv5_auc': 0.452, 'cv5_ci_low': 0.101, 'cv5_ci_high': 0.804, 'loo_auc': 0.619, 'loo_ci_low': 0.251, 'loo_ci_high': 0.987, 'previous_loo_auc': 0.619}
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+{'feature_set': 'all genes (k=200 selected in-fold)', 'n_shared_genes': 18529, 'external_auc': 0.6, 'ci_low': 0.165, 'ci_high': 1.0, 'note': 'trained on all 13 GSE134431 ulcers; applied without retraining to 9 GSE143735 forearm samples (5 healers, 4 non-healers)'}
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+{'feature_set': 'consensus panel', 'n_shared_genes': 129, 'external_auc': 0.35, 'ci_low': 0.0, 'ci_high': 0.766, 'note': 'trained on all 13 GSE134431 ulcers; applied without retraining to 9 GSE143735 forearm samples (5 healers, 4 non-healers)'}
+/usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:1407: UserWarning: Inconsistent values: penalty=l1 with l1_ratio=0.0. penalty is deprecated. Please use l1_ratio only.
+  warnings.warn(
+{'feature_set': 'canonical wound genes', 'n_shared_genes': 28, 'external_auc': 0.7, 'ci_low': 0.223, 'ci_high': 1.0, 'note': 'trained on all 13 GSE134431 ulcers; applied without retraining to 9 GSE143735 forearm samples (5 healers, 4 non-healers)'}
+                                   gene_set  n_genes  same_direction_n  same_direction_pct  same_direction_ci_low  same_direction_ci_high  binomial_p_vs_50pct  replicated_same_direction_and_P05_n  replicated_pct  replicated_ci_low  replicated_ci_high  expected_replicated_pct_by_chance
+                        whole transcriptome    17360              7942                45.7                   45.0                    46.5             1.000000                                  684             3.9                3.7                 4.2                                2.5
+                   nominal discovery P<0.05     1191               558                46.9                   44.0                    49.7             0.986196                                   57             4.8                3.6                 6.2                                2.5
+                         discovery FDR<0.05       45                30                66.7                   51.0                    80.0             0.017849                                    3             6.7                1.4                18.3                                2.5
+             consensus panel (>=3 analyses)      128                84                65.6                   56.7                    73.8             0.000258                                   11             8.6                4.4                14.9                                2.5
+             consensus panel (>=4 analyses)       16                12                75.0                   47.6                    92.7             0.038406                                    3            18.8                4.0                45.6                                2.5
+             consensus panel (>=5 analyses)        3                 3               100.0                   29.2                   100.0             0.125000                                    0             0.0                0.0                70.8                                2.5
+consensus panel (>=3), |discovery log2FC|>1       57                44                77.2                   64.2                    87.3             0.000024                                    5             8.8                2.9                19.3                                2.5
+revision/R2_07_bulk_CIs.py:113: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  K = K.loc[:, (K > 0).sum(0) >= max(3, int(0.2 * len(sub)))]
+revision/R2_07_bulk_CIs.py:113: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  K = K.loc[:, (K > 0).sum(0) >= max(3, int(0.2 * len(sub)))]
+revision/R2_07_bulk_CIs.py:113: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  K = K.loc[:, (K > 0).sum(0) >= max(3, int(0.2 * len(sub)))]
+revision/R2_07_bulk_CIs.py:113: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  K = K.loc[:, (K > 0).sum(0) >= max(3, int(0.2 * len(sub)))]
+{
+ "GSE134431": {
+  "timepoint_by_group": {
+   "P2": {
+    "Healing": 1,
+    "Nonhealing": 3
+   },
+   "W0": {
+    "Healing": 3,
+    "Nonhealing": 0
+   },
+   "W4": {
+    "Healing": 3,
+    "Nonhealing": 3
+   }
+  },
+  "n_FDR05_unadjusted": 50,
+  "n_FDR05_timepoint_adjusted": 141,
+  "lfc_spearman": 0.7456367751365583,
+  "overlap": 19
+ },
+ "GSE143735": {
+  "age_healing": [
+   59,
+   65,
+   61,
+   50,
+   52
+  ],
+  "age_nonhealing": [
+   55,
+   53,
+   55,
+   53
+  ],
+  "age_mannwhitney_p": 0.7109919960746027,
+  "n_FDR05_unadjusted": 9,
+  "n_FDR05_age_sex_adjusted": 10,
+  "lfc_spearman": 0.836887130686912
+ },
+ "panel_after_adjustment": {
+  "n": 128,
+  "same_direction": 86,
+  "pct": 67.2,
+  "ci": [
+   58.3,
+   75.2
+  ],
+  "binomial_p": 6.267911493755744e-05,
+  "replicated_P05": 18
+ }
+}
+                    cohort                        feature_set             model  cv5_auc  cv5_ci_low  cv5_ci_high  loo_auc  loo_ci_low  loo_ci_high  previous_loo_auc
+GSE134431 (internal, n=13) all genes (k=200 selected in-fold)       L1 logistic    0.262       0.000        0.551    0.738       0.422        1.000             0.738
+GSE134431 (internal, n=13) all genes (k=200 selected in-fold)       L2 logistic    0.286       0.000        0.596    0.476       0.124        0.828             0.476
+GSE134431 (internal, n=13) all genes (k=200 selected in-fold)     Random forest    0.357       0.019        0.695    0.405       0.066        0.743             0.405
+GSE134431 (internal, n=13) all genes (k=200 selected in-fold) Gradient boosting    0.286       0.000        0.605    0.595       0.249        0.942             0.548
+GSE134431 (internal, n=13)                    consensus panel       L1 logistic    0.857       0.649        1.000    0.976       0.910        1.000             0.976
+GSE134431 (internal, n=13)                    consensus panel       L2 logistic    0.595       0.251        0.940    0.690       0.364        1.000             0.690
+GSE134431 (internal, n=13)                    consensus panel     Random forest    0.643       0.282        1.000    0.667       0.317        1.000             0.667
+GSE134431 (internal, n=13)                    consensus panel Gradient boosting    0.774       0.492        1.000    0.833       0.507        1.000             0.833
+GSE134431 (internal, n=13)              canonical wound genes       L1 logistic    0.310       0.000        0.638    0.452       0.099        0.806             0.452
+GSE134431 (internal, n=13)              canonical wound genes       L2 logistic    0.429       0.086        0.771    0.500       0.150        0.850             0.500
+GSE134431 (internal, n=13)              canonical wound genes     Random forest    0.452       0.100        0.805    0.571       0.200        0.943             0.571
+GSE134431 (internal, n=13)              canonical wound genes Gradient boosting    0.452       0.101        0.804    0.619       0.251        0.987             0.619
+                       feature_set  n_shared_genes  external_auc  ci_low  ci_high                                                                                                                     note
+all genes (k=200 selected in-fold)           18529          0.60   0.165    1.000 trained on all 13 GSE134431 ulcers; applied without retraining to 9 GSE143735 forearm samples (5 healers, 4 non-healers)
+                   consensus panel             129          0.35   0.000    0.766 trained on all 13 GSE134431 ulcers; applied without retraining to 9 GSE143735 forearm samples (5 healers, 4 non-healers)
+             canonical wound genes              28          0.70   0.223    1.000 trained on all 13 GSE134431 ulcers; applied without retraining to 9 GSE143735 forearm samples (5 healers, 4 non-healers)

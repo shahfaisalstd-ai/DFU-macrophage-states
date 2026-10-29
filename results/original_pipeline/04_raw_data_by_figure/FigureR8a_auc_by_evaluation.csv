@@ -1,0 +1,11 @@
+evaluation,auc,colour
+"cell
+naive",0.9936543443917851,#BBBBBB
+"cell
+grouped",0.9304900347551341,#0072B2
+"cell
+LOPO",0.9544661400737231,#0072B2
+"patient
+aggregated",0.75,#D55E00
+"patient
+pseudobulk",0.5357142857142857,#D55E00

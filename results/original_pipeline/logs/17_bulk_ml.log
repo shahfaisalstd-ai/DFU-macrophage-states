@@ -1,0 +1,27 @@
+[    0.2s] bulk matrix (13, 18529); 6 non-healing / 7 healing
+[    0.2s] consensus panel genes present: 129; canonical wound genes present: 28
+[    0.5s]   all genes (k=200 selected in-fold) L1 logistic        apparent 1.00  5-fold 0.26  LOO 0.74
+[    0.8s]   all genes (k=200 selected in-fold) L2 logistic        apparent 1.00  5-fold 0.29  LOO 0.48
+[   12.1s]   all genes (k=200 selected in-fold) Random forest      apparent 1.00  5-fold 0.36  LOO 0.40
+[   13.2s]   all genes (k=200 selected in-fold) Gradient boosting  apparent 1.00  5-fold 0.31  LOO 0.55
+[   13.2s]   consensus panel                    L1 logistic        apparent 1.00  5-fold 0.86  LOO 0.98
+[   13.3s]   consensus panel                    L2 logistic        apparent 1.00  5-fold 0.60  LOO 0.69
+[   24.2s]   consensus panel                    Random forest      apparent 1.00  5-fold 0.64  LOO 0.67
+[   24.9s]   consensus panel                    Gradient boosting  apparent 1.00  5-fold 0.77  LOO 0.83
+[   24.9s]   canonical wound genes              L1 logistic        apparent 0.93  5-fold 0.31  LOO 0.45
+[   24.9s]   canonical wound genes              L2 logistic        apparent 1.00  5-fold 0.43  LOO 0.50
+[   36.3s]   canonical wound genes              Random forest      apparent 1.00  5-fold 0.45  LOO 0.57
+[   37.3s]   canonical wound genes              Gradient boosting  apparent 1.00  5-fold 0.45  LOO 0.62
+[   37.3s] 
+permutation null (500 label shuffles) for the leave-one-out estimates ...
+[  166.8s]   all genes (k=200 selected in-fold) L1 logistic        LOO 0.74 vs null 0.49+/-0.23, P = 0.180
+[  179.1s]   consensus panel                    L1 logistic        LOO 0.98 vs null 0.47+/-0.25, P = 0.012
+[  545.2s]   canonical wound genes              Gradient boosting  LOO 0.62 vs null 0.38+/-0.22, P = 0.178
+[  545.2s] 
+best configuration: consensus panel / L1 logistic (LOO AUC 0.98)
+[  545.2s] top 15 features:
+    gene  importance  in_consensus_panel  in_canonical_set
+      GK    1.253494                True             False
+C15orf48    0.110889                True             False
+ HSD11B1    0.082129                True             False
+[  545.2s] === STEP 17 COMPLETE ===

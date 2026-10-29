@@ -1,0 +1,14 @@
+{
+  "n_patients_nonhealing": 7,
+  "n_patients_healing": 12,
+  "mean_pseudotime_nonhealing": 0.1912831813097,
+  "mean_pseudotime_healing": 0.20743434131145477,
+  "rank_biserial": -0.11904761904761907,
+  "p_patient_level": 0.7108438517107247,
+  "p_cell_level": 2.3886942082314696e-45,
+  "n_cells_nonhealing": 1266,
+  "n_cells_healing": 1875,
+  "alt_root_mean_nonhealing": 0.2276860922574997,
+  "alt_root_mean_healing": 0.24320876598358154,
+  "alt_root_p_patient_level": 0.7732396602365642
+}

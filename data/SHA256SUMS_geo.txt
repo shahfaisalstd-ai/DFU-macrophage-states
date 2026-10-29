@@ -1,0 +1,9 @@
+# SHA-256 of the GEO files used for the published analysis (downloaded 2026).
+# GEO can regenerate series-matrix and NCBI count files; a mismatch is reported as a warning.
+b70a65d8e5bc3379bb04fefd70f1d878473f7a39e961f7e4c13d53697c452c9c  GSE134431_raw_counts_GRCh38.p13_NCBI.tsv.gz
+cc3ec1979e2d4e55a7354d34556289f4d111cdfeb7c1b7c4eb7414678d0c4345  GSE134431_series_matrix.txt.gz
+a4223d01678d7bb0a7b3feefb1d389e164830c9e43aff1fcea5e94921e70e185  GSE143735_raw_counts_GRCh38.p13_NCBI.tsv.gz
+73a3a2c9e167e256348b85cee901abd2d246962cc412f39c54d11bbb8aef8032  GSE143735_series_matrix.txt.gz
+f07c5a47aea9063cfbd2443173c1ef84427bd507ddffc3b9cf674bce66506e36  GSE165816_series_matrix.txt.gz
+a0b6ff49b0851334c709edbd52ae9c80ae998d66d9a30185de364ffb4a59efea  Human.GRCh38.p13.annot.tsv.gz
+fcad6eacd4d92353c250090e3ecce42c399c321c0777887d28f7b1d90d9d67f4  GSE165816_RAW.tar

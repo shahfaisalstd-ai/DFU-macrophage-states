@@ -1,0 +1,13 @@
+feature_set,model,n_features,apparent_auc,cv5_auc,leaveoneout_auc
+all genes (k=200 selected in-fold),L1 logistic,18529,1.0,0.261904761904762,0.738095238095238
+all genes (k=200 selected in-fold),L2 logistic,18529,1.0,0.2857142857142858,0.4761904761904762
+all genes (k=200 selected in-fold),Random forest,18529,1.0,0.35714285714285715,0.40476190476190477
+all genes (k=200 selected in-fold),Gradient boosting,18529,1.0,0.30952380952380953,0.5476190476190477
+consensus panel,L1 logistic,129,1.0,0.8571428571428571,0.9761904761904763
+consensus panel,L2 logistic,129,1.0,0.5952380952380952,0.6904761904761905
+consensus panel,Random forest,129,1.0,0.6428571428571428,0.6666666666666666
+consensus panel,Gradient boosting,129,1.0,0.7738095238095238,0.8333333333333335
+canonical wound genes,L1 logistic,28,0.9285714285714286,0.30952380952380953,0.4523809523809524
+canonical wound genes,L2 logistic,28,1.0,0.4285714285714286,0.5
+canonical wound genes,Random forest,28,1.0,0.4523809523809524,0.5714285714285714
+canonical wound genes,Gradient boosting,28,1.0,0.45238095238095244,0.6190476190476191

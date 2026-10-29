@@ -1,0 +1,9 @@
+{
+  "n_types": 18,
+  "n_cells": 97677,
+  "n_pairs": 204,
+  "n_tested": 7845,
+  "n_significant": 4343,
+  "n_patient_level_tests": 237,
+  "n_patient_level_FDR05": 0
+}

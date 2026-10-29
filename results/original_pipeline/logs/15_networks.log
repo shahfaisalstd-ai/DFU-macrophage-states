@@ -1,0 +1,49 @@
+[    0.2s] bulk network input (13, 19416)
+[    1.8s]   [bulk] soft power 20 (signed R2 0.73)
+[    2.5s]   [bulk] 4 modules (>= 30 genes), 208 genes unassigned
+[    3.3s] single-cell pseudobulk network input (19, 25683)
+[    4.8s]   [sc] soft power 12 (signed R2 0.83)
+[    5.6s]   [sc] 17 modules (>= 30 genes), 852 genes unassigned
+[    5.7s] 
+=== BULK MODULE-TRAIT ===
+ module  n_genes  pearson_r        p     padj
+bulk_M3      100  -0.468971 0.105961 0.423844
+bulk_M1     2410  -0.283261 0.348341 0.696682
+bulk_M2      247  -0.133180 0.664475 0.788441
+bulk_M4       35   0.082621 0.788441 0.788441
+[    5.7s] 
+=== SINGLE-CELL MODULE-TRAIT ===
+module  n_genes  pearson_r        p     padj
+sc_M10       47   0.456358 0.049533 0.842058
+ sc_M9       57   0.325708 0.173578 0.999627
+ sc_M1      542  -0.267392 0.268418 0.999627
+sc_M12       37   0.253814 0.294391 0.999627
+sc_M13       36   0.185256 0.447674 0.999627
+ sc_M8       61  -0.152674 0.532635 0.999627
+ sc_M2      427  -0.151728 0.535208 0.999627
+sc_M11       40   0.143572 0.557619 0.999627
+sc_M17       30  -0.124882 0.610477 0.999627
+ sc_M5       84  -0.119951 0.624749 0.999627
+sc_M14       34   0.104502 0.670283 0.999627
+ sc_M3      388   0.092169 0.707450 0.999627
+ sc_M4      147  -0.062058 0.800744 0.999627
+ sc_M7       75   0.050905 0.836040 0.999627
+sc_M15       33   0.010992 0.964377 0.999627
+sc_M16       33  -0.001335 0.995674 0.999627
+ sc_M6       77  -0.000115 0.999627 0.999627
+[    5.7s] 
+module pairs tested: 68; significant at FDR<0.05: 1; at P<0.001: 1
+[    5.7s] bulk_module sc_module  n_bulk  n_sc  overlap  jaccard        p     padj
+    bulk_M2     sc_M3      54   132       21 0.127273 0.000572 0.038897
+    bulk_M2     sc_M5      54    24        6 0.083333 0.009296 0.316068
+    bulk_M1     sc_M2     563    55       52 0.091873 0.018824 0.343995
+    bulk_M1    sc_M10     563    23       23 0.040853 0.020235 0.343995
+    bulk_M3     sc_M3      14   132        6 0.042857 0.040689 0.523924
+    bulk_M1     sc_M1     563    73       67 0.117750 0.046229 0.523924
+    bulk_M2    sc_M11      54     1        1 0.018519 0.081203 0.784269
+    bulk_M1     sc_M7     563    14       14 0.024867 0.094773 0.784269
+    bulk_M4    sc_M15       9     8        1 0.062500 0.103800 0.784269
+    bulk_M2    sc_M15      54     8        2 0.033333 0.132139 0.898542
+[    5.7s] 
+consensus panel: 129 genes; 125 recovered by at least one full-scale analysis (97%)
+[    5.8s] === STEP 15 COMPLETE ===
