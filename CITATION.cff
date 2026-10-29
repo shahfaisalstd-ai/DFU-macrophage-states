@@ -7,6 +7,7 @@ repository-code: "https://github.com/shahfaisalstd-ai/DFU-macrophage-states"
 authors:
   - family-names: Kambey
     given-names: Piniel Alphayo
+    email: pinielalphayo@yahoo.com
   - family-names: Faisal
     given-names: Shah
   - family-names: Ejaz
@@ -15,7 +16,6 @@ authors:
     given-names: Abdul
   - family-names: Li
     given-names: Yin-Xiong
-    email: li_yinxiong@gibh.ac.cn
 keywords:
   - diabetic foot ulcer
   - macrophage

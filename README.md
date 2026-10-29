@@ -4,7 +4,7 @@ This repository holds the complete analysis code for the article
 
 > **Integrative single-cell and bulk transcriptomic analysis reveals a macrophage state imbalance distinguishing non-healing diabetic foot ulcers**
 > Piniel Alphayo Kambey\*, Shah Faisal\*, Muhammad Adeel Ejaz, Abdul Malik, Yin-Xiong Li.
-> *World Journal of Diabetes*, manuscript 124795 (in revision). \*Co-first authors. Corresponding author: Yin-Xiong Li (li_yinxiong@gibh.ac.cn).
+> *World Journal of Diabetes*, manuscript 124795 (in revision). \*Co-first authors. Corresponding author: Piniel Alphayo Kambey (pinielalphayo@yahoo.com).
 
 It contains the code, the software environments, the reference results and the source data for every figure. The code runs from the public GEO accessions to every result table and figure reported in the manuscript and its Supplementary Tables 1-14.
 
